@@ -1,0 +1,11 @@
+[
+    {
+        "resource": "resource-name",
+        "nodes": 100,
+        "start_date": "YYYY-MM-DD",
+        "end_date": "YYYY-MM-DD",
+        "processors": 3600,
+        "ppn": 36
+    },
+    ...
+]
