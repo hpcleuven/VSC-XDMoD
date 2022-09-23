@@ -9,6 +9,8 @@ The UAntwerpen, UGent and VUB VSC sites will create a shared NSF volume.
 The KU Leuven VSC site will then mount these shared volumes on their site.
 These shared volumes will take on the following file structure.
 
+```
+
 [institute]
 |_[cloud_logs]
 |_[storage_logs]
@@ -18,6 +20,8 @@ These shared volumes will take on the following file structure.
   | |_[slurm]
   |_[resource_2]
   |_[...]
+
+```
 
 To avoid problems of data appearing in the directory while the xdmod shredder and ingestor are running, 
 the shredder and ingestor will be ran on local coppies of these shared volumes.
