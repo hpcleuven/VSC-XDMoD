@@ -1,5 +1,11 @@
 [
     {
+        "resource": "kul-icts",
+        "resource_type": "KU Leuven",
+        "name": "KUL ICTS",
+        "pi_column": "account"
+    },
+    {
         "resource": "vic3-harpertown",
         "resource_type": "KU Leuven",
         "name": "KUL Vic3 harpertown",
@@ -36,6 +42,12 @@
         "pi_column": "account"
     },
     {
+        "resource": "cerebro",
+        "resource_type": "KU Leuven",
+        "name": "KUL Cerebro",
+        "pi_column": "account"
+    },
+    {
         "resource": "thinking-ivybridge",
         "resource_type": "KU Leuven",
         "name": "KUL ThinKing ivybridge",
@@ -51,12 +63,6 @@
         "resource": "thinking-phi",
         "resource_type": "KU Leuven",
         "name": "KUL ThinKing Phi",
-        "pi_column": "account"
-    },
-    {
-        "resource": "cerebro",
-        "resource_type": "KU Leuven",
-        "name": "KUL Cerebro",
         "pi_column": "account"
     },
     {
@@ -78,33 +84,15 @@
         "pi_column": "account"
     },
     {
-        "resource": "genius-thinnode",
+        "resource": "genius-skylake",
         "resource_type": "KU Leuven",
-        "name": "KUL Genius Thin Node",
+        "name": "KUL Genius Skylake",
         "pi_column": "account"
     },
     {
-        "resource": "genius-cascade-lake",
-        "resource_type": "KU Leuven",
-        "name": "KUL Genius Thin Node cascade-lake",
-        "pi_column": "account"
-    },
-    {
-        "resource": "genius-cascade-gpu",
-        "resource_type": "KU Leuven",
-        "name": "KUL Genius Cascade-lake GPU",
-        "pi_column": "account"
-    },
-    {
-        "resource": "genius-gpu",
+        "resource": "genius-skylake-gpu",
         "resource_type": "KU Leuven",
         "name": "KUL Genius GPU",
-        "pi_column": "account"
-    },
-    {
-        "resource": "genius-amd",
-        "resource_type": "KU Leuven",
-        "name": "KUL Genius AMD",
         "pi_column": "account"
     },
     {
@@ -117,6 +105,24 @@
         "resource": "genius-superdome",
         "resource_type": "KU Leuven",
         "name": "KUL Superdome",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-amd",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius AMD",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-cascadelake",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Thin Node cascade-lake",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-cascadelake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Cascade-lake GPU",
         "pi_column": "account"
     },
     {
@@ -135,18 +141,6 @@
         "resource": "breniac-skylake",
         "resource_type": "KU Leuven",
         "name": "VSC Tier-1b BrENIAC skylake",
-        "pi_column": "account"
-    },
-    {
-        "resource": "kul-icts",
-        "resource_type": "KU Leuven",
-        "name": "KUL ICTS",
-        "pi_column": "account"
-    },
-    {
-        "resource": "genius-skylake",
-        "resource_type": "KU Leuven",
-        "name": "KUL Genius Skylake",
         "pi_column": "account"
     },
     {
