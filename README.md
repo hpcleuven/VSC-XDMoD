@@ -10,17 +10,17 @@ The KU Leuven VSC site will then mount these shared volumes on their site.
 These shared volumes will take on the following file structure.
 
 ```
-
 [institute]
-|_[cloud_logs]
-|_[storage_logs]
-|_[job_logs]
-  |_[resource_1]
-  | |_[pbs]
-  | |_[slurm]
-  |_[resource_2]
-  |_[...]
-
+     ├─ [cloud_logs]
+     ├─ [storage_logs]
+     └─ [job_logs]
+            ├─ [resource_1]
+            |       ├─[pbs]
+            |       └─[slurm]
+            ├─ [resource_2]
+            |       ├─[pbs]
+            |       └─[slurm]
+            └─ ...
 ```
 
 To avoid problems of data appearing in the directory while the xdmod shredder and ingestor are running, 
