@@ -35,7 +35,6 @@
         "name": "KUL Vic3 Phi",
         "pi_column": "account"
     },
---
     {
         "resource": "thinking-ivybridge",
         "resource_type": "KU Leuven",
