@@ -1,10 +1,65 @@
 [
     {
-        "resource": "resource-name",
-        "nodes": 100,
-        "start_date": "YYYY-MM-DD",
-        "end_date": "YYYY-MM-DD",
-        "processors": 3600,
-        "ppn": 36
+        "resource": "hydra-ampere_gpu",
+        "nodes": 6,
+        "ppn": 32,
+        "processors": 192,
+        "end_date": "2022-06-24"
     },
+    {
+        "resource": "hydra-broadwell",
+        "nodes": 27,
+        "ppn": 28,
+        "processors": 756
+    },
+    {
+        "resource": "hydra-broadwell_himem",
+        "nodes": 1,
+        "ppn": 40,
+        "processors": 40
+    },
+    {
+        "resource": "hydra-bvo00025",
+        "nodes": 2,
+        "ppn": 32,
+        "processors": 64
+    },
+    {
+        "resource": "hydra-ivybridge_mpi",
+        "nodes": 16,
+        "ppn": 20,
+        "processors": 320
+    },
+    {
+        "resource": "hydra-kepler_gpu",
+        "nodes": 6,
+        "ppn": 20,
+        "processors": 120,
+        "end_date": "2022-04-08"
+    },
+    {
+        "resource": "hydra-pascal_gpu",
+        "nodes": 4,
+        "ppn": 24,
+        "processors": 96
+    },
+    {
+        "resource": "hydra-skylake",
+        "nodes": 22,
+        "ppn": 40,
+        "processors": 880
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "nodes": 31,
+        "ppn": 40,
+        "processors": 1240
+    },
+    {
+        "resource": "hydra-ampere_gpu",
+        "nodes": 8,
+        "ppn": 32,
+        "processors": 256,
+        "start_date": "2022-06-25"
+    }
 ]

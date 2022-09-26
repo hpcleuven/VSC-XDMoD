@@ -1,8 +1,74 @@
 [
     {
-        "resource": "resource-name",
-        "name": "Resource Name",
-        "description": "Description of the Resource",
-        "resource_type": "resource-type"
+        "resource": "hydra-ampere_gpu",
+        "name": "VUB Hydra: Ampere GPU",
+        "description": "The ampere_gpu partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     },
+    {
+        "resource": "hydra-broadwell",
+        "name": "VUB Hydra: Broadwell",
+        "description": "The broadwell partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-broadwell_himem",
+        "name": "VUB Hydra: Broadwell Hi-Mem",
+        "description": "The broadwell_himem partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-bvo00025",
+        "name": "VUB Hydra: bvo00025 GPU",
+        "description": "The bvo00025 partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-ivybridge_mpi",
+        "name": "VUB Hydra: Ivybridge IB",
+        "description": "The ivybridge_mpi partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-kepler_gpu",
+        "name": "VUB Hydra: Kepler GPU",
+        "description": "The kepler_gpu partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-pascal_gpu",
+        "name": "VUB Hydra: Pascal GPU",
+        "description": "The pascal_gpu partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-skylake",
+        "name": "VUB Hydra: Skylake",
+        "description": "The skylake partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "name": "VUB Hydra: Skylake IB",
+        "description": "The skylake_mpi partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    }
 ]
