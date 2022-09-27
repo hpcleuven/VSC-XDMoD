@@ -1,0 +1,170 @@
+[
+    {
+        "resource": "kul-icts",
+        "resource_type": "KU Leuven",
+        "name": "KUL ICTS",
+        "pi_column": "account"
+    },
+    {
+        "resource": "vic3-harpertown",
+        "resource_type": "KU Leuven",
+        "name": "KUL Vic3 harpertown",
+        "pi_column": "account"
+    },
+    {
+        "resource": "vic3-westmere",
+        "resource_type": "KU Leuven",
+        "name": "KUL Vic3 westmere",
+        "pi_column": "account"
+    },
+    {
+        "resource": "vic3-nehalem",
+        "resource_type": "KU Leuven",
+        "name": "KUL Vic3 nehalem",
+        "pi_column": "account"
+    },
+    {
+        "resource": "vic3-nehalem-fat",
+        "resource_type": "KU Leuven",
+        "name": "KUL Vic3 nehalem fat",
+        "pi_column": "account"
+    },
+    {
+        "resource": "vic3-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL Vic3 GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "vic3-phi",
+        "resource_type": "KU Leuven",
+        "name": "KUL Vic3 Phi",
+        "pi_column": "account"
+    },
+    {
+        "resource": "cerebro",
+        "resource_type": "KU Leuven",
+        "name": "KUL Cerebro",
+        "pi_column": "account"
+    },
+    {
+        "resource": "thinking-ivybridge",
+        "resource_type": "KU Leuven",
+        "name": "KUL ThinKing ivybridge",
+        "pi_column": "account"
+    },
+    {
+        "resource": "thinking-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL ThinKing GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "thinking-phi",
+        "resource_type": "KU Leuven",
+        "name": "KUL ThinKing Phi",
+        "pi_column": "account"
+    },
+    {
+        "resource": "thinking-haswell",
+        "resource_type": "KU Leuven",
+        "name": "KUL ThinKing Haswell",
+        "pi_column": "account"
+    },
+    {
+        "resource": "thinking-gpu-K40",
+        "resource_type": "KU Leuven",
+        "name": "KUL ThinKing GPU K40",
+        "pi_column": "account"
+    },
+    {
+        "resource": "thinking-vis",
+        "resource_type": "KU Leuven",
+        "name": "KUL ThinKing Visualization",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-skylake",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Skylake",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-skylake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-bigmem",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Big Memory",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-superdome",
+        "resource_type": "KU Leuven",
+        "name": "KUL Superdome",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-amd",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius AMD",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-cascadelake",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Thin Node cascade-lake",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-cascadelake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Cascade-lake GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "breniac",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-1b BrENIAC",
+        "pi_column": "account"
+    },
+    {
+        "resource": "breniac-broadwell",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-1b BrENIAC broadwell",
+        "pi_column": "account"
+    },
+    {
+        "resource": "breniac-skylake",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-1b BrENIAC skylake",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-icelake",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE icelake",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "wice-icelake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE icelake GPU",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "wice-bigmem",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Big Memory",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "wice-interactive",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Interactive",
+        "pi_column": "account_name"
+    }
+]
