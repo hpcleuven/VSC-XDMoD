@@ -180,9 +180,9 @@
         "resource": "breniac-skylake",
         "nodes": 408,
         "start_date": "2019-03-16",
-        "end_date": "2020-09-23"
+        "end_date": "2020-09-23",
         "processors": 11424,
-        "ppn": 28,
+        "ppn": 28
     },
     {
         "resource": "breniac-skylake",
