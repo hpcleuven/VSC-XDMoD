@@ -60,7 +60,7 @@
         "resource": "thinking-ivybridge",
         "nodes": 208,
         "start_date": "2014-09-25",
-        "end_date": "2019-08-07",
+        "end_date": "2019-08-06",
         "processors": 4160,
         "ppn": 20
     },
