@@ -220,7 +220,7 @@
         "ppn": 72
     },
         {
-        "resource": "wice-interactive",
+        "resource": "wice-experimental",
         "nodes": 3,
         "start_date": "2022-06-01",
         "processors": 600,
