@@ -166,5 +166,11 @@
         "resource_type": "KU Leuven",
         "name": "KUL wICE Interactive",
         "pi_column": "account_name"
+    },
+    {
+        "resource": "wice-experimental",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Experimental",
+        "pi_column": "account_name"
     }
 ]
