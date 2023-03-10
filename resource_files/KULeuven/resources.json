@@ -169,7 +169,7 @@
     },
     {
         "resource": "wice-experimental",
-        "resource_type": "KU Leuven",
+        "resource_type": "BAD",
         "name": "KUL wICE Experimental",
         "pi_column": "account_name"
     }
