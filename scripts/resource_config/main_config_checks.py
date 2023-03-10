@@ -5,7 +5,7 @@ from xdmod_resource_manager import Resource, Resource_Spec
 
 
 def check_resource_configs(vsc_site):
-    root="VSC-XDMoD/resource_files/"
+    root="resource_files/"
     local_resources_path = root + "resources.json"
     local_resource_specs_path = root + "resource_specs.json"
     remote_resources_path = root + vsc_site + "/resources.json"
