@@ -89,7 +89,7 @@ def date_overlap(s1, s2):
 
 if __name__ == "__main__":
     
-    vsc_sites = [f.name for f in os.scandir(remote_path) if f.is_dir()] 
+    vsc_sites = [f.name for f in os.scandir("VSC-XDMoD/resource_files/") if f.is_dir()] 
     for vsc_site in vsc_sites:
         print(f">>> {vsc_site} <<<")
         check_resource_configs(vsc_site)
