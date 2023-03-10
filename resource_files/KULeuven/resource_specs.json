@@ -218,5 +218,12 @@
         "start_date": "2022-06-01",
         "processors": 360,
         "ppn": 72
+    },
+        {
+        "resource": "wice-interactive",
+        "nodes": 3,
+        "start_date": "2022-06-01",
+        "processors": 600,
+        "ppn": 200
     }
 ]
