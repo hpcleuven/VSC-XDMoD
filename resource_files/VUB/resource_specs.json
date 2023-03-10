@@ -68,6 +68,14 @@
         "nodes": 33,
         "ppn": 40,
         "processors": 1320,
-        "start_date": "2022-12-12"
+        "start_date": "2022-12-12",
+        "end_date": "2023-12-31"
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "nodes": 40,
+        "ppn": 40,
+        "processors": 1600,
+        "start_date": "2024-01-01"
     }
 ]
