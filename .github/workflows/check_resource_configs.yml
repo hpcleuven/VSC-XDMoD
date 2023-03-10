@@ -1,0 +1,26 @@
+name: run main_checks.py
+
+on:
+  push:
+      branches: [ master ]
+  pull_request:
+      branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: "setup python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+          cache: 'pip'
+        
+      - name: "install python packages"
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: run config checks
+        run: python3 scripts/resource_config/main_config_checks.py
