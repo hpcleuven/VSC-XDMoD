@@ -20,5 +20,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: run resource config sync
+      - name: "run resource config sync"
         run: python3 scripts/resource_config/main_resource_sync.py
+      
+      - name: "commit resource config changes"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -a -m "ENH: update resources.json & resource_specs.json"
+          
+      - name: "push resource config changes"
+        uses: ad-m/github-push-action@v0.6.0
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
