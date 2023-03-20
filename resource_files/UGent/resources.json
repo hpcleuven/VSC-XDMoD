@@ -124,5 +124,26 @@
     "name": "accelgor",
     "pi_column": "account_name",
     "shared_jobs": true
+  },
+  {
+    "resource": "gallade",
+    "resource_type": "UGent",
+    "name": "gallade",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "donphan",
+    "resource_type": "UGent",
+    "name": "donphan",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio",
+    "resource_type": "UGent",
+    "name": "dodrio",
+    "pi_column": "account_name",
+    "shared_jobs": true
   }
 ]

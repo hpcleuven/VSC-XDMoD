@@ -1,110 +1,128 @@
 [
-    {
-        "resource": "skitty",
-        "processors": 2592,
-        "nodes": 72,
-        "ppn": 36
-    },
-    {
-        "resource": "victini",
-        "processors": 3456,
-        "nodes": 96,
-        "ppn": 36
-    },
-    {
-        "resource": "delcatty",
-        "processors": 2560,
-        "nodes": 160,
-        "ppn": 16
-    },
-    {
-        "resource": "phanpy",
-        "processors": 384,
-        "nodes": 16,
-        "ppn": 24
-    },
-    {
-        "resource": "golett",
-        "processors": 4800,
-        "nodes": 200,
-        "ppn": 24
-    },
-    {
-        "resource": "swalot",
-        "processors": 2560,
-        "nodes": 128,
-        "ppn": 20
-    },
-    {
-        "resource": "joltik",
-        "processors": 320,
-        "nodes": 10,
-        "ppn": 32
-    },
-    {
-        "resource": "kirlia",
-        "processors": 576,
-        "nodes": 16,
-        "ppn": 36
-    },
-    {
-        "resource": "gengar",
-        "processors": 1552,
-        "nodes": 194,
-        "ppn": 8
-    },
-    {
-        "resource": "gastly",
-        "processors": 448,
-        "nodes": 56,
-        "ppn": 8
-    },
-    {
-        "resource": "haunter",
-        "processors": 1344,
-        "nodes": 168,
-        "ppn": 8
-    },
-    {
-        "resource": "gulpin",
-        "processors": 1088,
-        "nodes": 34,
-        "ppn": 32
-    },
-    {
-        "resource": "dugtrio",
-        "processors": 192,
-        "nodes": 16,
-        "ppn": 12
-    },
-    {
-        "resource": "raichu",
-        "processors": 1024,
-        "nodes": 64,
-        "ppn": 16
-    },
-    {
-        "resource": "muk",
-        "processors": 8448,
-        "nodes": 528,
-        "ppn": 16
-    },
-    {
-        "resource": "doduo",
-        "processors": 12288,
-        "nodes": 128,
-        "ppn": 96
-    },
-    {
-        "resource": "slaking",
-        "processors": 1728,
-        "nodes": 12,
-        "ppn": 144
-    },
-    {
-        "resource": "accelgor",
-        "processors": 432,
-        "nodes": 9,
-        "ppn": 48
-    }
+  {
+    "resource": "skitty",
+    "processors": 2592,
+    "nodes": 72,
+    "ppn": 36
+  },
+  {
+    "resource": "victini",
+    "processors": 3456,
+    "nodes": 96,
+    "ppn": 36
+  },
+  {
+    "resource": "delcatty",
+    "processors": 2560,
+    "nodes": 160,
+    "ppn": 16
+  },
+  {
+    "resource": "phanpy",
+    "processors": 384,
+    "nodes": 16,
+    "ppn": 24
+  },
+  {
+    "resource": "golett",
+    "processors": 4800,
+    "nodes": 200,
+    "ppn": 24
+  },
+  {
+    "resource": "swalot",
+    "processors": 2560,
+    "nodes": 128,
+    "ppn": 20
+  },
+  {
+    "resource": "joltik",
+    "processors": 320,
+    "nodes": 10,
+    "ppn": 32
+  },
+  {
+    "resource": "kirlia",
+    "processors": 576,
+    "nodes": 16,
+    "ppn": 36
+  },
+  {
+    "resource": "gengar",
+    "processors": 1552,
+    "nodes": 194,
+    "ppn": 8
+  },
+  {
+    "resource": "gastly",
+    "processors": 448,
+    "nodes": 56,
+    "ppn": 8
+  },
+  {
+    "resource": "haunter",
+    "processors": 1344,
+    "nodes": 168,
+    "ppn": 8
+  },
+  {
+    "resource": "gulpin",
+    "processors": 1088,
+    "nodes": 34,
+    "ppn": 32
+  },
+  {
+    "resource": "dugtrio",
+    "processors": 192,
+    "nodes": 16,
+    "ppn": 12
+  },
+  {
+    "resource": "raichu",
+    "processors": 1024,
+    "nodes": 64,
+    "ppn": 16
+  },
+  {
+    "resource": "muk",
+    "processors": 8448,
+    "nodes": 528,
+    "ppn": 16
+  },
+  {
+    "resource": "doduo",
+    "processors": 12288,
+    "nodes": 128,
+    "ppn": 96
+  },
+  {
+    "resource": "slaking",
+    "processors": 1728,
+    "nodes": 12,
+    "ppn": 144
+  },
+  {
+    "resource": "accelgor",
+    "processors": 432,
+    "nodes": 9,
+    "ppn": 48
+  },
+  {
+    "resource": "donphan",
+    "processors": 432,
+    "nodes": 12,
+    "ppn": 36
+  },
+  {
+    "resource": "gallade",
+    "processors": 1536,
+    "nodes": 12,
+    "ppn": 128
+  },
+  {
+    "resource": "dodrio",
+    "processors": 432,
+    "nodes": 9,
+    "ppn": 48
+  }
 ]
