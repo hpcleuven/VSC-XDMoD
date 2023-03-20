@@ -140,9 +140,37 @@
     "shared_jobs": true
   },
   {
-    "resource": "dodrio",
+    "resource": "dodrio_cpu_rome",
     "resource_type": "UGent",
-    "name": "dodrio",
+    "name": "dodrio_cpu_rome",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_cpu_rome_512",
+    "resource_type": "UGent",
+    "name": "dodrio_cpu_rom_512",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_cpu_rome_all",
+    "resource_type": "UGent",
+    "name": "dodrio_cpu_rome_all",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_gpu_rome_a100",
+    "resource_type": "UGent",
+    "name": "dodrio_gpu_rome",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_debug_rome",
+    "resource_type": "UGent",
+    "name": "dodrio_debug_rome",
     "pi_column": "account_name",
     "shared_jobs": true
   }
