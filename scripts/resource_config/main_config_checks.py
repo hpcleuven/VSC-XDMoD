@@ -4,12 +4,11 @@ import os
 from xdmod_resource_manager import Resource, Resource_Spec
 
 
-def check_resource_configs(vsc_site):
-    root="VSC-XDMoD/resource_files/"
-    local_resources_path = root + "resources.json"
-    local_resource_specs_path = root + "resource_specs.json"
-    remote_resources_path = root + vsc_site + "/resources.json"
-    remote_resource_specs_path = root + vsc_site + "/resource_specs.json"
+def check_resource_configs(vsc_site, resource_files):
+    local_resources_path = resource_files + "resources.json"
+    local_resource_specs_path = resource_files  + "resource_specs.json"
+    remote_resources_path = resource_files + vsc_site + "/resources.json"
+    remote_resource_specs_path = resource_files + vsc_site + "/resource_specs.json"
 
     with open(local_resources_path, "r") as f1, open(
         local_resource_specs_path, "r"
@@ -88,8 +87,8 @@ def date_overlap(s1, s2):
 
 
 if __name__ == "__main__":
-    
-    vsc_sites = [f.name for f in os.scandir(remote_path) if f.is_dir()] 
+    resource_files = "./resource_files/"
+    vsc_sites = [f.name for f in os.scandir(resource_files) if f.is_dir()] 
     for vsc_site in vsc_sites:
         print(f">>> {vsc_site} <<<")
-        check_resource_configs(vsc_site)
+        check_resource_configs(vsc_site, resource_files)

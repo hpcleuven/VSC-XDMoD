@@ -1,8 +1,8 @@
 import datetime as dt
 import json
 
-resources_path = "/etc/xdmod/resources.json"
-resource_types_path = "/etc/xdmod/resource_types.json"
+resources_path = "./resource_files/resources.json"
+resource_types_path = "./resource_files/resource_types.json"
 
 
 def is_valid_resource(creation_dict):
