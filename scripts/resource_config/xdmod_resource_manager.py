@@ -64,10 +64,7 @@ class Resource_Spec:
         self._nodes = self._dict["nodes"]
         self._processors = self._dict["processors"]
         self._ppn = self._dict["ppn"]
-        if "start_date" in self._dict.keys():
-            self._start_date = dt.date.fromisoformat(self._dict["start_date"])
-        else:
-            self._start_date = dt.date.fromisoformat("2000-01-01")
+        self._start_date = dt.date.fromisoformat(self._dict["start_date"])
         if "end_date" in self._dict.keys():
             self._end_date = dt.date.fromisoformat(self._dict["end_date"])
         else:
@@ -75,7 +72,7 @@ class Resource_Spec:
         if "percent_allocated" in self._dict.keys():
             self._percent_allocated = self._dict["percent_allocated"]
         self.id = str(
-            self._resource + "_" + str(self._start_date) + "_" + str(self._end_date)
+            self._resource + "_" + str(self._start_date)
         )
 
     def resource(self):
