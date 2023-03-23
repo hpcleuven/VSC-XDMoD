@@ -1,13 +1,12 @@
 import copy
 import json
 import os
-
 from xdmod_resource_manager import Resource, Resource_Spec
 
-def sync_resource_config(vsc_site, resource_files):
-    
+
+def check_resource_configs(vsc_site, resource_files):
     local_resources_path = resource_files + "resources.json"
-    local_resource_specs_path = resource_files + "resource_specs.json"
+    local_resource_specs_path = resource_files  + "resource_specs.json"
     remote_resources_path = resource_files + vsc_site + "/resources.json"
     remote_resource_specs_path = resource_files + vsc_site + "/resource_specs.json"
 
@@ -22,9 +21,11 @@ def sync_resource_config(vsc_site, resource_files):
         remote_resource_specs = json.load(f4)
 
     # sync resources.json
+    
+    print(">>> Sanity Checking Resources <<<")
     local_resources = generate_resources(local_resources)
     remote_resources = generate_resources(remote_resources)
-    print("\nstarting resource sync\n")
+    
     updated_local_resources = copy.deepcopy(local_resources)
     resources = [res.resource() for res in local_resources]
     for ref in remote_resources:
@@ -32,13 +33,10 @@ def sync_resource_config(vsc_site, resource_files):
             for i in range(len(local_resources)):
                 if local_resources[i].resource() == ref.resource():
                     updated_local_resources[i] = ref
-                    print(f"Updated {local_resources[i].resource()}")
         else:
             updated_local_resources.append(ref)
-            print(f"Appending new resource {ref.resource()}")
-            print(ref)
 
-    # sync resource_specs.json
+    print(">>> Sanity Checking Resource_specs <<<")
     local_resource_specs = generate_resource_specs(
         local_resource_specs, local_resources
     )
@@ -57,21 +55,6 @@ def sync_resource_config(vsc_site, resource_files):
         else:
             updated_local_resource_specs.append(ref)
             print(f"Appending new resource_spec {ref}")
-
-    # overwrite local resources.json and resource_specs.json
-    with open(local_resources_path, "w") as o1, open(
-        local_resource_specs_path, "w"
-    ) as o2:
-        print(f"\nwriting to {local_resources_path}\n")
-        json.dump(
-            [resource.get() for resource in updated_local_resources], o1, indent=4
-        )
-        print(f"\nwriting to {local_resource_specs_path}\n")
-        json.dump(
-            [resource_spec.get() for resource_spec in updated_local_resource_specs],
-            o2,
-            indent=4,
-        )
 
 
 def generate_resources(resources):
@@ -104,11 +87,8 @@ def date_overlap(s1, s2):
 
 
 if __name__ == "__main__":
-    
     resource_files = "./resource_files/"
-
     vsc_sites = [f.name for f in os.scandir(resource_files) if f.is_dir()] 
     for vsc_site in vsc_sites:
         print(f">>> {vsc_site} <<<")
-        sync_resource_config(vsc_site, resource_files)
-
+        check_resource_configs(vsc_site, resource_files)

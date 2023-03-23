@@ -2,221 +2,230 @@
     {
         "resource": "kul-icts",
         "nodes": 8,
-        "start_date": "2015-01-01",
         "processors": 192,
-        "ppn": 24
+        "ppn": 24,
+        "start_date": "2015-01-01"
     },
     {
         "resource": "vic3-harpertown",
         "nodes": 112,
         "processors": 896,
-        "ppn": 8
+        "ppn": 8,
+        "start_date": "2008-11-06"
     },
     {
         "resource": "vic3-westmere",
         "nodes": 96,
         "processors": 1152,
-        "ppn": 12
+        "ppn": 12,
+        "start_date": "2008-11-06"
     },
     {
         "resource": "vic3-nehalem",
         "nodes": 80,
         "processors": 640,
-        "ppn": 8
+        "ppn": 8,
+        "start_date": "2008-11-06"
     },
     {
         "resource": "vic3-nehalem-fat",
         "nodes": 6,
         "processors": 48,
-        "ppn": 8
+        "ppn": 8,
+        "start_date": "2008-11-06"
     },
     {
         "resource": "vic3-gpu",
         "nodes": 12,
         "processors": 144,
-        "ppn": 12
+        "ppn": 12,
+        "start_date": "2008-11-06"
     },
     {
         "resource": "vic3-phi",
         "nodes": 8,
         "processors": 96,
-        "ppn": 12
+        "ppn": 12,
+        "start_date": "2008-11-06"
     },
     {
         "resource": "cerebro",
         "nodes": 60,
         "processors": 600,
-        "ppn": 10
+        "ppn": 10,
+        "start_date": "2014-03-24"
     },
     {
         "resource": "thinking-ivybridge",
         "nodes": 144,
-        "start_date": "2014-01-10",
-        "end_date": "2014-09-24",
         "processors": 2880,
-        "ppn": 20
+        "ppn": 20,
+        "start_date": "2014-01-10",
+        "end_date": "2014-09-24"
     },
     {
         "resource": "thinking-ivybridge",
         "nodes": 208,
-        "start_date": "2014-09-25",
-        "end_date": "2019-08-06",
         "processors": 4160,
-        "ppn": 20
+        "ppn": 20,
+        "start_date": "2014-09-25",
+        "end_date": "2019-08-06"
     },
     {
         "resource": "thinking-ivybridge",
         "nodes": 160,
-        "start_date": "2019-08-07",
         "processors": 3200,
-        "ppn": 20
+        "ppn": 20,
+        "start_date": "2019-08-07"
     },
     {
         "resource": "thinking-gpu",
         "nodes": 12,
         "processors": 144,
-        "ppn": 12
+        "ppn": 12,
+        "start_date": "2014-01-10"
     },
     {
         "resource": "thinking-phi",
         "nodes": 8,
         "processors": 96,
-        "ppn": 12
+        "ppn": 12,
+        "start_date": "2014-01-10"
     },
     {
         "resource": "thinking-haswell",
         "nodes": 48,
-        "start_date": "2015-03-12",
-        "end_date": "2016-04-10",
         "processors": 1152,
-        "ppn": 24
+        "ppn": 24,
+        "start_date": "2015-03-12",
+        "end_date": "2016-04-10"
     },
     {
         "resource": "thinking-haswell",
         "nodes": 144,
-        "start_date": "2016-04-11",
         "processors": 3456,
-        "ppn": 24
+        "ppn": 24,
+        "start_date": "2016-04-11"
     },
     {
         "resource": "thinking-gpu-K40",
         "nodes": 5,
-        "start_date": "2015-03-12",
         "processors": 100,
-        "ppn": 20
+        "ppn": 20,
+        "start_date": "2015-03-12"
     },
     {
         "resource": "thinking-vis",
         "nodes": 2,
-        "start_date": "2015-10-23",
         "processors": 40,
-        "ppn": 20
+        "ppn": 20,
+        "start_date": "2015-10-23"
     },
     {
         "resource": "genius-skylake",
         "nodes": 86,
-        "start_date": "2018-03-16",
         "processors": 3096,
-        "ppn": 36
+        "ppn": 36,
+        "start_date": "2018-03-16"
     },
     {
         "resource": "genius-skylake-gpu",
         "nodes": 20,
-        "start_date": "2018-03-16",
         "processors": 720,
-        "ppn": 36
+        "ppn": 36,
+        "start_date": "2018-03-16"
     },
     {
         "resource": "genius-bigmem",
         "nodes": 10,
-        "start_date": "2018-03-16",
         "processors": 360,
-        "ppn": 36
+        "ppn": 36,
+        "start_date": "2018-03-16"
     },
     {
         "resource": "genius-superdome",
         "nodes": 8,
-        "start_date": "2018-12-15",
         "processors": 112,
-        "ppn": 14
+        "ppn": 14,
+        "start_date": "2018-12-15"
     },
     {
         "resource": "genius-amd",
         "nodes": 4,
-        "start_date": "2019-01-01",
         "processors": 256,
-        "ppn": 64
+        "ppn": 64,
+        "start_date": "2019-01-01"
     },
     {
         "resource": "genius-cascadelake",
         "nodes": 120,
-        "start_date": "2019-07-01",
         "processors": 4320,
-        "ppn": 36
+        "ppn": 36,
+        "start_date": "2019-07-01"
     },
     {
         "resource": "genius-cascadelake-gpu",
         "nodes": 2,
-        "start_date": "2019-07-01",
         "processors": 72,
-        "ppn": 36
+        "ppn": 36,
+        "start_date": "2019-07-01"
     },
     {
         "resource": "breniac",
         "nodes": 580,
-        "start_date": "2016-05-27",
-        "end_date": "2019-03-15",
         "processors": 16240,
-        "ppn": 28
+        "ppn": 28,
+        "start_date": "2016-05-27",
+        "end_date": "2019-03-15"
     },
     {
         "resource": "breniac-broadwell",
         "nodes": 580,
-        "start_date": "2016-05-27",
         "processors": 16240,
-        "ppn": 28
+        "ppn": 28,
+        "start_date": "2016-05-27"
     },
     {
         "resource": "breniac-skylake",
         "nodes": 408,
+        "processors": 11424,
+        "ppn": 28,
         "start_date": "2019-03-16",
-        "end_date": "2020-09-23",
-        "processors": 11424,
-        "ppn": 28
+        "end_date": "2020-09-23"
     },
     {
         "resource": "breniac-skylake",
-        "start_date": "2020-09-24",
         "nodes": 408,
         "processors": 11424,
-        "ppn": 28
+        "ppn": 28,
+        "start_date": "2020-09-24"
     },
     {
         "resource": "wice-icelake",
         "nodes": 172,
-        "start_date": "2022-06-01",
         "processors": 12384,
-        "ppn": 72
+        "ppn": 72,
+        "start_date": "2022-06-01"
     },
     {
         "resource": "wice-icelake-gpu",
         "nodes": 4,
-        "start_date": "2022-06-01",
         "processors": 288,
-        "ppn": 72
+        "ppn": 72,
+        "start_date": "2022-06-01"
     },
     {
         "resource": "wice-bigmem",
         "nodes": 5,
-        "start_date": "2022-06-01",
         "processors": 360,
-        "ppn": 72
+        "ppn": 72,
+        "start_date": "2022-06-01"
     },
     {
         "resource": "wice-interactive",
         "nodes": 5,
-        "start_date": "2022-06-01",
         "processors": 360,
-        "ppn": 72
+        "ppn": 72,
+        "start_date": "2022-06-01"
     }
 ]
