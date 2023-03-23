@@ -9,42 +9,49 @@
     {
         "resource": "vic3-harpertown",
         "nodes": 112,
+        "start_date": "2008-11-06",
         "processors": 896,
         "ppn": 8
     },
     {
         "resource": "vic3-westmere",
         "nodes": 96,
+        "start_date": "2008-11-06",
         "processors": 1152,
         "ppn": 12
     },
     {
         "resource": "vic3-nehalem",
         "nodes": 80,
+        "start_date": "2008-11-06",
         "processors": 640,
         "ppn": 8
     },
     {
         "resource": "vic3-nehalem-fat",
         "nodes": 6,
+        "start_date": "2008-11-06",
         "processors": 48,
         "ppn": 8
     },
     {
         "resource": "vic3-gpu",
         "nodes": 12,
+        "start_date": "2008-11-06",
         "processors": 144,
         "ppn": 12
     },
     {
         "resource": "vic3-phi",
         "nodes": 8,
+        "start_date": "2008-11-06",
         "processors": 96,
         "ppn": 12
     },
     {
         "resource": "cerebro",
         "nodes": 60,
+        "start_date": "2014-03-24",
         "processors": 600,
         "ppn": 10
     },
@@ -74,12 +81,14 @@
     {
         "resource": "thinking-gpu",
         "nodes": 12,
+        "start_date": "2014-01-10",
         "processors": 144,
         "ppn": 12
     },
     {
         "resource": "thinking-phi",
         "nodes": 8,
+        "start_date": "2014-01-10",
         "processors": 96,
         "ppn": 12
     },
@@ -218,20 +227,5 @@
         "start_date": "2022-06-01",
         "processors": 360,
         "ppn": 72
-    },
-        {
-        "resource": "wice-experimental",
-        "nodes": 3,
-        "start_date": "2022-06-01",
-        "end_date": "2023-02-28",
-        "processors": 600,
-        "ppn": 200
-    },
-        {
-        "resource": "wice-experimental",
-        "nodes": 30,
-        "start_date": "2023-03-01",
-        "processors": 6000,
-        "ppn": 200
     }
 ]
