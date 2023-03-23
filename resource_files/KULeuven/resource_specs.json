@@ -229,9 +229,9 @@
     },
         {
         "resource": "wice-experimental",
-        "nodes": 24,
+        "nodes": 30,
         "start_date": "2023-03-01",
-        "processors": 4800,
+        "processors": 6000,
         "ppn": 200
     }
 ]
