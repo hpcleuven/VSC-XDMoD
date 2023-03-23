@@ -136,11 +136,12 @@ def is_valid_resource_spec(creation_dict, resources):
     
     if "end_date" in creation_dict.keys():
         end = creation_dict["end_date"]
-        if start > end:
-            raise Exception(f"sanity error for {resource}: end_date < start_date")
         if not check_date(end):
             raise Exception(f"date error for {resource}: end_date not yyyy-mm-dd")
         end = dt.date.fromisoformat(end)
+        if start > end:
+            raise Exception(f"sanity error for {resource}: end_date < start_date")
+        
     
     if "percent_allocated" in creation_dict.keys():
         percent_allocated = creation_dict["percent_allocated"]
