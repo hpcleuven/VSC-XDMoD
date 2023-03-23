@@ -12,7 +12,7 @@
         "nodes": 27,
         "ppn": 28,
         "processors": 756,
-        "start_date": "2018-05-01",
+        "start_date": "2018-05-01"
     },
     {
         "resource": "hydra-broadwell_himem",
