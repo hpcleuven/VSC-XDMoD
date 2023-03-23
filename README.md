@@ -1,6 +1,6 @@
 # NOTE
-For the automatic syncing to be possible it is mandatory for resource specs to have a start_date defined!
-Please review your current resource_specs.json and update it if necessary.
+**For the automatic syncing to be possible it is mandatory for resource specs to have a start_date defined!
+Please review your current resource_specs.json and update it if necessary.**
 
 # XDMoD Future Plans
 
