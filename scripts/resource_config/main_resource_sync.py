@@ -49,7 +49,7 @@ def sync_resource_config(vsc_site, resource_files):
     updated_local_resource_specs = copy.deepcopy(local_resource_specs)
     resource_spec_ids = [spec.id for spec in local_resource_specs]
     for ref in remote_resource_specs:
-        if ref.id in resource_specs_ids:
+        if ref.id in resource_spec_ids:
             for i in range(len(local_resource_specs)):
                 if local_resource_specs[i].id == ref.id:
                     updated_local_resource_specs[i] = ref
