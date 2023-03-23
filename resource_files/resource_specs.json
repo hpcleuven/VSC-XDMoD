@@ -321,7 +321,15 @@
         "resource": "wice-experimental",
         "nodes": 4,
         "start_date": "2023-03-23",
+        "end_date": "2023-12-31",
         "processors": 400,
+        "ppn": 100
+    },
+    {
+        "resource": "wice-experimental",
+        "nodes": 8,
+        "start_date": "2024-01-01",
+        "processors": 800,
         "ppn": 100
     }
 ]
