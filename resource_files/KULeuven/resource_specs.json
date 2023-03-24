@@ -136,6 +136,20 @@
         "start_date": "2018-03-16"
     },
     {
+        "resource": "genius-cascadelake",
+        "nodes": 120,
+        "processors": 4320,
+        "ppn": 36,
+        "start_date": "2019-07-01"
+    },
+    {
+        "resource": "genius-cascadelake-gpu",
+        "nodes": 2,
+        "processors": 72,
+        "ppn": 36,
+        "start_date": "2019-07-01"
+    },
+    {
         "resource": "genius-bigmem",
         "nodes": 10,
         "processors": 360,
@@ -155,20 +169,6 @@
         "processors": 256,
         "ppn": 64,
         "start_date": "2019-01-01"
-    },
-    {
-        "resource": "genius-cascadelake",
-        "nodes": 120,
-        "processors": 4320,
-        "ppn": 36,
-        "start_date": "2019-07-01"
-    },
-    {
-        "resource": "genius-cascadelake-gpu",
-        "nodes": 2,
-        "processors": 72,
-        "ppn": 36,
-        "start_date": "2019-07-01"
     },
     {
         "resource": "breniac",
