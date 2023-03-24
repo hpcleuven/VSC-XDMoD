@@ -126,24 +126,6 @@
         "pi_column": "account"
     },
     {
-        "resource": "breniac",
-        "resource_type": "KU Leuven",
-        "name": "VSC Tier-1b BrENIAC",
-        "pi_column": "account"
-    },
-    {
-        "resource": "breniac-broadwell",
-        "resource_type": "KU Leuven",
-        "name": "VSC Tier-1b BrENIAC broadwell",
-        "pi_column": "account"
-    },
-    {
-        "resource": "breniac-skylake",
-        "resource_type": "KU Leuven",
-        "name": "VSC Tier-1b BrENIAC skylake",
-        "pi_column": "account"
-    },
-    {
         "resource": "wice-icelake",
         "resource_type": "KU Leuven",
         "name": "KUL wICE icelake",
@@ -166,5 +148,23 @@
         "resource_type": "KU Leuven",
         "name": "KUL wICE Interactive",
         "pi_column": "account_name"
+    },
+    {
+        "resource": "breniac",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-1b BrENIAC",
+        "pi_column": "account"
+    },
+    {
+        "resource": "breniac-broadwell",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-1b BrENIAC broadwell",
+        "pi_column": "account"
+    },
+    {
+        "resource": "breniac-skylake",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-1b BrENIAC skylake",
+        "pi_column": "account"
     }
 ]
