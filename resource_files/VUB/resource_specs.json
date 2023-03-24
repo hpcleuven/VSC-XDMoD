@@ -74,17 +74,17 @@
         "end_date": "2023-03-14"
     },
     {
-        "resource": "hydra-skylake_mpi",
-        "nodes": 33,
-        "ppn": 40,
-        "processors": 1320,
-        "start_date": "2022-12-12"
-    },
-    {
         "resource": "hydra-ampere_gpu",
         "nodes": 10,
         "ppn": 32,
         "processors": 320,
         "start_date": "2023-03-15"
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "nodes": 33,
+        "ppn": 40,
+        "processors": 1320,
+        "start_date": "2022-12-12"
     }
 ]
