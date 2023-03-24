@@ -96,6 +96,18 @@
         "pi_column": "account"
     },
     {
+        "resource": "genius-cascadelake",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Thin Node cascade-lake",
+        "pi_column": "account"
+    },
+    {
+        "resource": "genius-cascadelake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Cascade-lake GPU",
+        "pi_column": "account"
+    },
+    {
         "resource": "genius-bigmem",
         "resource_type": "KU Leuven",
         "name": "KUL Genius Big Memory",
@@ -111,18 +123,6 @@
         "resource": "genius-amd",
         "resource_type": "KU Leuven",
         "name": "KUL Genius AMD",
-        "pi_column": "account"
-    },
-    {
-        "resource": "genius-cascadelake",
-        "resource_type": "KU Leuven",
-        "name": "KUL Genius Thin Node cascade-lake",
-        "pi_column": "account"
-    },
-    {
-        "resource": "genius-cascadelake-gpu",
-        "resource_type": "KU Leuven",
-        "name": "KUL Genius Cascade-lake GPU",
         "pi_column": "account"
     },
     {
