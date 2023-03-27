@@ -4,149 +4,174 @@
     "processors": 2592,
     "nodes": 72,
     "ppn": 36
+    "start_date": "2018-02-05"
   },
   {
     "resource": "victini",
     "processors": 3456,
     "nodes": 96,
-    "ppn": 36
+    "ppn": 36,
+    "start_date": "2018-01-24"
   },
   {
     "resource": "delcatty",
     "processors": 2560,
     "nodes": 160,
-    "ppn": 16
+    "ppn": 16,
+    "start_date": "2013-05015"
   },
   {
     "resource": "phanpy",
     "processors": 384,
     "nodes": 16,
-    "ppn": 24
+    "ppn": 24,
+    "start_date": "2014-12-11"
   },
   {
     "resource": "golett",
     "processors": 4800,
     "nodes": 200,
-    "ppn": 24
+    "ppn": 24,
+    "start_date": "2015-01-13"
   },
   {
     "resource": "swalot",
     "processors": 2560,
     "nodes": 128,
-    "ppn": 20
+    "ppn": 20,
+    "start_date": "2016-01-13"
   },
   {
     "resource": "joltik",
     "processors": 320,
     "nodes": 10,
-    "ppn": 32
+    "ppn": 32,
+    "start_date": "2019-08-09"
   },
   {
     "resource": "kirlia",
     "processors": 576,
     "nodes": 16,
-    "ppn": 36
+    "ppn": 36,
+    "start_date": "2020-02-13"
   },
   {
     "resource": "gengar",
     "processors": 1552,
     "nodes": 194,
-    "ppn": 8
+    "ppn": 8,
+    "start_date": "2008-11-01"
   },
   {
     "resource": "gastly",
     "processors": 448,
     "nodes": 56,
-    "ppn": 8
+    "ppn": 8,
+    "start_date": "2009-12-01"
   },
   {
     "resource": "haunter",
     "processors": 1344,
     "nodes": 168,
-    "ppn": 8
+    "ppn": 8,
+    "start_date": "2010-01-01"
   },
   {
     "resource": "gulpin",
     "processors": 1088,
     "nodes": 34,
-    "ppn": 32
+    "ppn": 32,
+    "start_date": "2011-06-10"
   },
   {
     "resource": "dugtrio",
     "processors": 192,
     "nodes": 16,
-    "ppn": 12
+    "ppn": 12,
+    "start_date": "2011-09-05"
   },
   {
     "resource": "raichu",
     "processors": 1024,
     "nodes": 64,
-    "ppn": 16
+    "ppn": 16,
+    "start_date": "2012-06-15"
   },
   {
     "resource": "muk",
     "processors": 8448,
     "nodes": 528,
-    "ppn": 16
+    "ppn": 16,
+    "start_date": "2011-02-14"
   },
   {
     "resource": "doduo",
     "processors": 12288,
     "nodes": 128,
-    "ppn": 96
+    "ppn": 96,
+    "start_date": "2020-08-04"
   },
   {
     "resource": "slaking",
     "processors": 1728,
     "nodes": 12,
-    "ppn": 144
+    "ppn": 144,
+    "start_date": "2020-12-09"
   },
   {
     "resource": "accelgor",
     "processors": 432,
     "nodes": 9,
-    "ppn": 48
+    "ppn": 48,
+    "start_date": "2021-09-12"
   },
   {
     "resource": "donphan",
     "processors": 432,
     "nodes": 12,
-    "ppn": 36
+    "ppn": 36,
+    "start_date": "2022-11-29"
   },
   {
     "resource": "gallade",
     "processors": 1536,
     "nodes": 12,
-    "ppn": 128
+    "ppn": 128,
+    "start_date": "2022-11-29"
   },
   {
     "resource": "dodrio_cpu_rome",
     "processors": 37632,
     "nodes": 294,
-    "ppn": 128
+    "ppn": 128,
+    "start_date": "2020-10-27"
   },
   {
     "resource": "dodrio_cpu_rome_all",
     "processors": 43008,
     "nodes": 336,
-    "ppn": 128
+    "ppn": 128,
+    "start_date": "2020-10-27"
   },
   {
     "resource": "dodrio_cpu_rome_512",
     "processors": 5376,
     "nodes": 42,
-    "ppn": 128
+    "ppn": 128,
+    "start_date": "2020-10-27"
   },
   {
     "resource": "dodrio_gpu_rome_a100",
     "processors": 960,
     "nodes": 20,
-    "ppn": 48
+    "ppn": 48,
+    "start_date": "2020-10-27"
   },
   {
     "resource": "dodrio_debug_rome",
     "processors": 36,
     "nodes": 3,
-    "ppn": 12
+    "ppn": 12,
+    "start_date": "2020-10-27"
   }
 ]
