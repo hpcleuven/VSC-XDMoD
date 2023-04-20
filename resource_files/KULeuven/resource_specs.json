@@ -1,8 +1,8 @@
 [
     {
         "resource": "kul-icts",
-        "nodes": 8,
-        "processors": 192,
+        "nodes": 80,
+        "processors": 1920,
         "ppn": 24,
         "start_date": "2015-01-01"
     },
