@@ -1,12 +1,15 @@
 on:
   pull_request:
     branches: [ master ]
-    types:
+    types: 
+      - labeled
       - closed
 
 jobs:
   if_merged:
     if: github.event.pull_request.merged == true
+  build:  
+    if: github.event.label.name == 'run-sync'
     runs-on: ubuntu-20.04
     steps:
       - name: "create resource-sync branch"
@@ -44,7 +47,7 @@ jobs:
       - name: "create pull request"
         uses: peter-evans/create-pull-request@v5
         with:           
-          token: ${{ secrets.XDMOD_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: resource-sync
           base: master
           delete-branch: true
