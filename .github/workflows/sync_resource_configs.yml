@@ -48,4 +48,5 @@ jobs:
           branch: resource-sync
           base: master
           delete-branch: true
+          author: GitHub Action <action@github.com>
           reviewers: "WouterVanAssche"
