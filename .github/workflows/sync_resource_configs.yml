@@ -8,7 +8,7 @@ jobs:
   resource_sync:
     if: |
       github.event.pull_request.merged == true &&
-      not contains(github.event.pull_request.labels.*.name, 'synced')
+      ! contains(github.event.pull_request.labels.*.name, 'synced')
       
     runs-on: ubuntu-20.04
     steps:
