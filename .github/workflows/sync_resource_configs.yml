@@ -5,10 +5,10 @@ on:
       - labeled
       - closed
 jobs:
-  if_merged:
+  resource_sync:
     if: |
       github.event.pull_request.merged == true &&
-      github.event.label.name != 'resource-sync'
+      github.event.label.name != 'synced'
     runs-on: ubuntu-20.04
     steps:
       - name: "create resource-sync branch"
@@ -52,4 +52,4 @@ jobs:
           delete-branch: true
           author: action-users <action@github.com>
           reviewers: "WouterVanAssche"
-          labels: resource-sync
+          labels: synced
