@@ -8,25 +8,25 @@
     {
         "resource": "vic3-harpertown",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 harpertown",
+        "name": "KUL Vic3 Harpertown",
         "pi_column": "account"
     },
     {
         "resource": "vic3-westmere",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 westmere",
+        "name": "KUL Vic3 Westmere",
         "pi_column": "account"
     },
     {
         "resource": "vic3-nehalem",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 nehalem",
+        "name": "KUL Vic3 Nehalem",
         "pi_column": "account"
     },
     {
         "resource": "vic3-nehalem-fat",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 nehalem fat",
+        "name": "KUL Vic3 Nehalem Fat",
         "pi_column": "account"
     },
     {
@@ -86,25 +86,25 @@
     {
         "resource": "genius-skylake",
         "resource_type": "KU Leuven",
-        "name": "KUL Genius Skylake",
+        "name": "KUL Genius Skylake Thin Node",
         "pi_column": "account"
     },
     {
         "resource": "genius-skylake-gpu",
         "resource_type": "KU Leuven",
-        "name": "KUL Genius GPU",
+        "name": "KUL Genius Skylake GPU",
         "pi_column": "account"
     },
     {
         "resource": "genius-cascadelake",
         "resource_type": "KU Leuven",
-        "name": "KUL Genius Thin Node cascade-lake",
+        "name": "KUL Genius cascadelake Thin Node",
         "pi_column": "account"
     },
     {
         "resource": "genius-cascadelake-gpu",
         "resource_type": "KU Leuven",
-        "name": "KUL Genius Cascade-lake GPU",
+        "name": "KUL Genius Cascadelake GPU",
         "pi_column": "account"
     },
     {
@@ -128,13 +128,13 @@
     {
         "resource": "wice-icelake",
         "resource_type": "KU Leuven",
-        "name": "KUL wICE icelake",
+        "name": "KUL wICE Icelake Thin Node",
         "pi_column": "account_name"
     },
     {
         "resource": "wice-icelake-gpu",
         "resource_type": "KU Leuven",
-        "name": "KUL wICE icelake GPU",
+        "name": "KUL wICE Icelake GPU",
         "pi_column": "account_name"
     },
     {
@@ -158,13 +158,13 @@
     {
         "resource": "breniac-broadwell",
         "resource_type": "KU Leuven",
-        "name": "VSC Tier-1b BrENIAC broadwell",
+        "name": "VSC Tier-1b BrENIAC Broadwell",
         "pi_column": "account"
     },
     {
         "resource": "breniac-skylake",
         "resource_type": "KU Leuven",
-        "name": "VSC Tier-1b BrENIAC skylake",
+        "name": "VSC Tier-1b BrENIAC Skylake",
         "pi_column": "account"
     },
     {
