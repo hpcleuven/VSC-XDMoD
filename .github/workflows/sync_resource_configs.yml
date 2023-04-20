@@ -12,19 +12,12 @@ jobs:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.XDMOD_TOKEN }}
-      - uses: peterjgrainger/action-create-branch@v2.2.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          branch: action-branch
-      - uses: actions/checkout@v3
-        with:
-          ref: action-branch
+
       - name: "setup python"
         uses: actions/setup-python@v4
         with:
           python-version: '3.8'
-        
+  
       - name: "install python packages"
         run: |
           python -m pip install --upgrade pip
@@ -41,6 +34,8 @@ jobs:
           git commit -a -m "ENH: update resources.json & resource_specs.json"
           
       - name: "create pull request"
-        run: gh pr create -B master -H action-branch --title 'Merge action-branch into master' --body 'Created by Github action'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peter-evans/create-pull-request@v5
+        with: 
+          reviewers: "WouterVanAssche"
+          token: ${{ secrets.XDMOD_TOKEN }}
+          branch: master
