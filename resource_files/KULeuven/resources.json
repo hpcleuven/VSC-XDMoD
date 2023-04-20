@@ -8,25 +8,25 @@
     {
         "resource": "vic3-harpertown",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 harpertown",
+        "name": "KUL Vic3 Harpertown",
         "pi_column": "account"
     },
     {
         "resource": "vic3-westmere",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 westmere",
+        "name": "KUL Vic3 Westmere",
         "pi_column": "account"
     },
     {
         "resource": "vic3-nehalem",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 nehalem",
+        "name": "KUL Vic3 Nehalem",
         "pi_column": "account"
     },
     {
         "resource": "vic3-nehalem-fat",
         "resource_type": "KU Leuven",
-        "name": "KUL Vic3 nehalem fat",
+        "name": "KUL Vic3 Nehalem Fat",
         "pi_column": "account"
     },
     {
