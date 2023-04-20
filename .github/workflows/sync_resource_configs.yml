@@ -19,7 +19,7 @@ jobs:
           branch: action-branch
       - uses: actions/checkout@v3
         with:
-          branch: action-branch
+          ref: action-branch
       - name: "setup python"
         uses: actions/setup-python@v4
         with:
