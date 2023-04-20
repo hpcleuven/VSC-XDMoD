@@ -32,8 +32,9 @@ jobs:
           git add -A
           git commit -a -m "ENH: update resources.json & resource_specs.json"
           
-      - name: "push resource config changes"
-        uses: ad-m/github-push-action@master
+      - name: "create pull request"
+        uses: peter-evans/create-pull-request@v5
         with: 
-          github_token: ${{ secrets.XDMOD_TOKEN }}
+          reviewers: "WouterVanAssche"
+          token: ${{ secrets.XDMOD_TOKEN }}
           branch: master
