@@ -1,3 +1,7 @@
+# NOTE
+### For the automatic syncing to be possible it is mandatory for resource specs to have a start_date defined!
+### Please review your current resource_specs.json and update it if necessary.
+
 # XDMoD Future Plans
 
 In June 2022 we agreed that it would be beneficial to have a centralized place from where we can access the job & storage data from across all vsc sites.

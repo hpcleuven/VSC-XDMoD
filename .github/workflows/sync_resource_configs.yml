@@ -1,0 +1,56 @@
+on:
+  pull_request:
+    branches: [ master ]
+    types: 
+      - labeled
+      - closed
+jobs:
+  resource_sync:
+    if: |
+      github.event.pull_request.merged == true &&
+      ! contains(github.event.pull_request.labels.*.name, 'synced')
+      
+    runs-on: ubuntu-20.04
+    steps:
+      - name: "create resource-sync branch"
+        uses: peterjgrainger/action-create-branch@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: resource-sync
+
+      - name: "checkout resource-sync branch" 
+        uses: actions/checkout@v3
+        with:
+          ref: 'resource-sync'
+
+      - name: "setup python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: "install python packages"
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: "run resource config sync"
+        run: python3 scripts/resource_config/main_resource_sync.py
+
+      - name: "commit resource config changes"
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -a -m "ENH: update resources.json & resource_specs.json"
+
+      - name: "create pull request"
+        uses: peter-evans/create-pull-request@v5
+        with:           
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: resource-sync
+          base: master
+          delete-branch: true
+          author: action-users <action@github.com>
+          reviewers: "WouterVanAssche"
+          labels: synced

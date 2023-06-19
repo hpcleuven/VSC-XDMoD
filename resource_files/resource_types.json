@@ -1,0 +1,34 @@
+{
+    "resource_types": {
+        "KU Leuven": {
+            "description": "KU Leuven resource",
+                "realms": [
+                    "Jobs"
+                ]
+        },
+        "UAntwerpen": {
+            "description": "UAntwerpen resource",
+                "realms": [
+                    "Jobs"
+                ]
+        },
+        "UGent": {
+            "description": "UGent resource",
+                "realms": [
+                    "Jobs"
+                ]
+        },
+        "VUB": {
+            "description": "VUB resource",
+                "realms": [
+                    "Jobs"
+                ]
+        },
+        "Disk": {
+            "description":"Disk storage resource",
+                "realms": [
+                    "Storage"
+                ]
+        }
+    }
+}
