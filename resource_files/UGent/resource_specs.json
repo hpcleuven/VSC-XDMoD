@@ -163,7 +163,7 @@
   {
     "resource": "dodrio_gpu_rome_a100",
     "processors": 960,
-    "nodes": 20,
+    "nodes": 40,
     "ppn": 48,
     "start_date": "2020-10-27"
   },
@@ -173,5 +173,26 @@
     "nodes": 3,
     "ppn": 12,
     "start_date": "2020-10-27"
+  },
+  {
+    "resource": "dodrio_gpu_rome_a100_40",
+    "processors": 960,
+    "nodes": 20,
+    "ppn": 48,
+    "start_date": "2023-05-20"
+  },
+  {
+    "resource": "dodrio_gpu_rome_a100_80",
+    "processors": 960,
+    "nodes": 20,
+    "ppn": 48,
+    "start_date": "2023-05-20"
+  },
+  {
+    "resource": "dodrio_cpu_milan",
+    "processors": 41472,
+    "nodes": 324,
+    "ppn": 128,
+    "start_date": "2023-05-20"
   }
 ]

@@ -173,5 +173,26 @@
     "name": "dodrio_debug_rome",
     "pi_column": "account_name",
     "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_gpu_rome_a100_40",
+    "resource_type": "UGent",
+    "name": "dodrio_gpu_rome",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_gpu_rome_a100_80",
+    "resource_type": "UGent",
+    "name": "dodrio_gpu_rome",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "dodrio_cpu_milan",
+    "resource_type": "UGent",
+    "name": "dodrio_cpu_milan",
+    "pi_column": "account_name",
+    "shared_jobs": true
   }
 ]
