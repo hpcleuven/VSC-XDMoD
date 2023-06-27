@@ -128,7 +128,7 @@
     {
         "resource": "wice-icelake",
         "resource_type": "KU Leuven",
-        "name": "KUL wICE Icelake Thin Node",
+        "name": "KUL wICE Icelake Thin",
         "pi_column": "account_name"
     },
     {
