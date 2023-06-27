@@ -128,7 +128,7 @@
     {
         "resource": "wice-icelake",
         "resource_type": "KU Leuven",
-        "name": "KUL wICE Icelake Thin Node",
+        "name": "KUL wICE Icelake Thin",
         "pi_column": "account_name"
     },
     {
@@ -238,5 +238,35 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "hopper_cpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Hopper Ivybridge CPU",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "leibniz_cpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Leibniz Broadwell CPU",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "leibniz_gpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Leibniz Pascal GPU",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "vaughan_cpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Vaughan Rome CPU",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "vaughan_gpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Vaughan Ampere/Arcturus CPU",
+        "pi_column": "account_name"
     }
 ]
