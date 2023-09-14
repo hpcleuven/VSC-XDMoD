@@ -18,7 +18,8 @@
     "processors": 2560,
     "nodes": 160,
     "ppn": 16,
-    "start_date": "2013-05015"
+    "start_date": "2013-05-15"
+    "end_date": "2019-10-17"
   },
   {
     "resource": "phanpy",
