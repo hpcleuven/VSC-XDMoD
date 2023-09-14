@@ -57,6 +57,7 @@
     "nodes": 16,
     "ppn": 36,
     "start_date": "2020-02-13"
+    "end_date": "2023-05-22"
   },
   {
     "resource": "gengar",
@@ -126,6 +127,7 @@
     "nodes": 12,
     "ppn": 144,
     "start_date": "2020-12-09"
+    "end_date": "2023-05-22"
   },
   {
     "resource": "accelgor",
