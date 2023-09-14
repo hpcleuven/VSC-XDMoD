@@ -27,6 +27,7 @@
     "nodes": 16,
     "ppn": 24,
     "start_date": "2014-12-11"
+    "end_date": "2021-03-18"
   },
   {
     "resource": "golett",
@@ -34,6 +35,7 @@
     "nodes": 200,
     "ppn": 24,
     "start_date": "2015-01-13"
+    "end_date": "2020-11-09"
   },
   {
     "resource": "swalot",
