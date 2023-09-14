@@ -174,7 +174,7 @@
   },
   {
     "resource": "dodrio_gpu_rome_a100",
-    "processors": 960,
+    "processors": 1920,
     "nodes": 40,
     "ppn": 48,
     "start_date": "2020-10-27"
