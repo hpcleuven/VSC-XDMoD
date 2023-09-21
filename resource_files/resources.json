@@ -268,5 +268,201 @@
         "resource_type": "UAntwerpen",
         "name": "UAntwerpen CalcUA Vaughan Ampere/Arcturus CPU",
         "pi_column": "account_name"
+    },
+    {
+        "resource": "skitty",
+        "resource_type": "UGent",
+        "name": "skitty",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "victini",
+        "resource_type": "UGent",
+        "name": "victini",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "delcatty",
+        "resource_type": "UGent",
+        "name": "delcatty",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "phanpy",
+        "resource_type": "UGent",
+        "name": "phanpy",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "golett",
+        "resource_type": "UGent",
+        "name": "golett",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "swalot",
+        "resource_type": "UGent",
+        "name": "swalot",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "joltik",
+        "resource_type": "UGent",
+        "name": "joltik",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "kirlia",
+        "resource_type": "UGent",
+        "name": "kirlia",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "gengar",
+        "resource_type": "UGent",
+        "name": "gengar",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "gastly",
+        "resource_type": "UGent",
+        "name": "gastly",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "haunter",
+        "resource_type": "UGent",
+        "name": "haunter",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "gulpin",
+        "resource_type": "UGent",
+        "name": "gulpin",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dugtrio",
+        "resource_type": "UGent",
+        "name": "dugtrio",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "raichu",
+        "resource_type": "UGent",
+        "name": "raichu",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "muk",
+        "resource_type": "UGent",
+        "name": "muk",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "doduo",
+        "resource_type": "UGent",
+        "name": "doduo",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "slaking",
+        "resource_type": "UGent",
+        "name": "slaking",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "accelgor",
+        "resource_type": "UGent",
+        "name": "accelgor",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "gallade",
+        "resource_type": "UGent",
+        "name": "gallade",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "donphan",
+        "resource_type": "UGent",
+        "name": "donphan",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_cpu_rome",
+        "resource_type": "UGent",
+        "name": "dodrio_cpu_rome",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_cpu_rome_512",
+        "resource_type": "UGent",
+        "name": "dodrio_cpu_rom_512",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_cpu_rome_all",
+        "resource_type": "UGent",
+        "name": "dodrio_cpu_rome_all",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_gpu_rome_a100",
+        "resource_type": "UGent",
+        "name": "dodrio_gpu_rome",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_debug_rome",
+        "resource_type": "UGent",
+        "name": "dodrio_debug_rome",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_gpu_rome_a100_40",
+        "resource_type": "UGent",
+        "name": "dodrio_gpu_rome",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_gpu_rome_a100_80",
+        "resource_type": "UGent",
+        "name": "dodrio_gpu_rome",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "dodrio_cpu_milan",
+        "resource_type": "UGent",
+        "name": "dodrio_cpu_milan",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]
