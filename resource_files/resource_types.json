@@ -25,7 +25,7 @@
                 ]
         },
         "Disk": {
-            "description":"Disk Storage resource",
+            "description":"Disk storage resource",
                 "realms": [
                     "Storage"
                 ]
