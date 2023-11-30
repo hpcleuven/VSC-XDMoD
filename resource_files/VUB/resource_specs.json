@@ -87,5 +87,12 @@
         "ppn": 40,
         "processors": 1320,
         "start_date": "2022-12-12"
+    },
+    {
+        "resource": "hydra-skylake_mpi-breniac",
+        "nodes": 16,
+        "ppn": 28,
+        "processors": 448,
+        "start_date": "2023-09-07"
     }
 ]
