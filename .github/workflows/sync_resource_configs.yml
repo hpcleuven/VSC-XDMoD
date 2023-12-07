@@ -1,7 +1,7 @@
 on:
-  pull_request:
+  pull_request_target:
     branches: [ master ]
-    types: 
+    types:
       - labeled
       - closed
 jobs:
@@ -51,7 +51,6 @@ jobs:
           branch: resource-sync
           base: master
           delete-branch: true
-          target: pull_request_target
           author: action-users <action@github.com>
           reviewers: "WouterVanAssche"
           labels: synced
