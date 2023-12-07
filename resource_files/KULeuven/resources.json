@@ -50,7 +50,7 @@
     {
         "resource": "thinking-ivybridge",
         "resource_type": "KU Leuven",
-        "name": "KUL ThinKing ivybridge",
+        "name": "KUL ThinKing Ivybridge",
         "pi_column": "account"
     },
     {
@@ -98,7 +98,7 @@
     {
         "resource": "genius-cascadelake",
         "resource_type": "KU Leuven",
-        "name": "KUL Genius cascadelake Thin Node",
+        "name": "KUL Genius Cascadelake Thin Node",
         "pi_column": "account"
     },
     {
