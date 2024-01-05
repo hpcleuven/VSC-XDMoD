@@ -28,5 +28,11 @@
         "resource_type": "UAntwerpen",
         "name": "UAntwerpen CalcUA Vaughan Ampere/Arcturus CPU",
         "pi_column": "account_name"
+    },
+    {
+        "resource": "breniac_cpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Breniac Skylake CPU",
+        "pi_column": "account_name"
     }
 ]
