@@ -44,7 +44,7 @@
         "ppn": 64 
     },
     {
-        "resource": "skylake_cpu",
+        "resource": "breniac_cpu",
         "nodes": 23,
         "start_date": "2023-07-17",
         "processors": 644,
