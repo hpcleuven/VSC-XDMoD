@@ -3,6 +3,7 @@
         "resource": "hopper_cpu",
         "nodes": 24,
         "start_date": "2014-03-11",
+        "end_date": "2023-07-10",
         "processors": 480,
         "ppn": 20 
     },
@@ -24,7 +25,15 @@
         "resource": "vaughan_cpu",
         "nodes": 152,
         "start_date": "2020-07-03",
+        "end_date": "2023-06-18",
         "processors": 9728,
+        "ppn": 64
+    },
+    {
+        "resource": "vaughan_cpu",
+        "nodes": 192,
+        "start_date": "2023-06-19",
+        "processors": 12288,
         "ppn": 64
     },
     {
@@ -33,5 +42,12 @@
         "start_date": "2021-09-21",
         "processors": 192,
         "ppn": 64 
+    },
+    {
+        "resource": "breniac_cpu",
+        "nodes": 23,
+        "start_date": "2023-07-17",
+        "processors": 644,
+        "ppn": 28
     }
 ]
