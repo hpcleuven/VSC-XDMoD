@@ -464,5 +464,19 @@
         "name": "dodrio_cpu_milan",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "breniac_cpu",
+        "resource_type": "UAntwerpen",
+        "name": "UAntwerpen CalcUA Breniac Skylake CPU",
+        "pi_column": "account_name"
+    },
+    {
+        "resource": "hydra-skylake_mpi-breniac",
+        "name": "VUB Hydra: Skylake IB - Breniac",
+        "description": "The skylake_mpi partition of Hydra with former breniac nodes",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]
