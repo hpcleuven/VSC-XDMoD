@@ -166,5 +166,20 @@
         "resource_type": "KU Leuven",
         "name": "VSC Tier-1b BrENIAC Skylake",
         "pi_column": "account"
+    },
+    {
+        "resource":"home",
+        "resource_type":"Disk",
+        "name":"Leuven home"
+    },
+    {
+        "resource":"data",
+        "resource_type":"Disk",
+        "name":"Leuven home"
+    },
+    {
+        "resource":"scratch",
+        "resource_type":"Disk",
+        "name":"Leuven home"
     }
 ]
