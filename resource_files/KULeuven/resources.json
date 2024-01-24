@@ -171,15 +171,5 @@
         "resource":"home",
         "resource_type":"Disk",
         "name":"Leuven home"
-    },
-    {
-        "resource":"data",
-        "resource_type":"Disk",
-        "name":"Leuven home"
-    },
-    {
-        "resource":"scratch",
-        "resource_type":"Disk",
-        "name":"Leuven home"
     }
 ]
