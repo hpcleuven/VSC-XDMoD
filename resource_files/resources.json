@@ -466,6 +466,11 @@
         "shared_jobs": true
     },
     {
+        "resource":"home",
+        "resource_type":"Disk",
+        "name":"Leuven home"
+    },
+    {
         "resource": "breniac_cpu",
         "resource_type": "UAntwerpen",
         "name": "UAntwerpen CalcUA Breniac Skylake CPU",
