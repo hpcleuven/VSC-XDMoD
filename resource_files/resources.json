@@ -465,11 +465,17 @@
         "pi_column": "account_name",
         "shared_jobs": true
     },
+    
     {
         "resource": "breniac_cpu",
         "resource_type": "UAntwerpen",
         "name": "UAntwerpen CalcUA Breniac Skylake CPU",
         "pi_column": "account_name"
+    },
+    {
+        "resource":"home",
+        "resource_type":"Disk",
+        "name":"Leuven home"
     },
     {
         "resource": "hydra-skylake_mpi-breniac",
