@@ -94,5 +94,12 @@
         "ppn": 28,
         "processors": 448,
         "start_date": "2023-09-07"
+    },
+    {
+        "resource": "hydra-zen4",
+        "nodes": 20,
+        "ppn": 64,
+        "processors": 1280,
+        "start_date": "2024-02-19"
     }
 ]

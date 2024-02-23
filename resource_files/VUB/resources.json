@@ -78,5 +78,13 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "hydra-zen4",
+        "name": "VUB Hydra: Zen4",
+        "description": "The zen4 partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]
