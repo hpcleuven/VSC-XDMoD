@@ -182,7 +182,7 @@
     {
         "resource": "wice-genoa",
         "resource_type": "KU Leuven",
-        "name": "VSC Tier-2 wICE Genoa",
+        "name": "VSC Tier-2 wICE Genoa GPU",
         "pi_column": "account"
     },
     {
