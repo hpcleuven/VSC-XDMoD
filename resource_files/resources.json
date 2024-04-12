@@ -2,7 +2,7 @@
     {
         "resource": "kul-icts",
         "resource_type": "KU Leuven",
-        "name": "KUL ICTS - TEST",
+        "name": "KUL ICTS",
         "pi_column": "account"
     },
     {
@@ -483,5 +483,10 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "home",
+        "resource_type": "Disk",
+        "name": "Leuven home"
     }
 ]
