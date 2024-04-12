@@ -466,9 +466,9 @@
         "shared_jobs": true
     },
     {
-        "resource":"home",
-        "resource_type":"Disk",
-        "name":"Leuven home"
+        "resource": "home",
+        "resource_type": "Disk",
+        "name": "Leuven home"
     },
     {
         "resource": "breniac_cpu",
@@ -488,5 +488,23 @@
         "resource": "home",
         "resource_type": "Disk",
         "name": "Leuven home"
+    },
+    {
+        "resource": "wice-sapphirerapids",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Sapphire Rapids",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-hugemem",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Huge mem",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-genoa",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Genoa",
+        "pi_column": "account"
     }
 ]

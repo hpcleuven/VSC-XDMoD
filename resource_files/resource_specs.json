@@ -582,5 +582,26 @@
         "ppn": 28,
         "processors": 448,
         "start_date": "2023-09-07"
+    },
+    {
+        "resource": "wice-sapphirerapids",
+        "nodes": 68,
+        "processors": 6528,
+        "ppn": 96,
+        "start_date": "2024-01-01"
+    },
+    {
+        "resource": "wice-hugemem",
+        "nodes": 1,
+        "processors": 72,
+        "ppn": 72,
+        "start_date": "2024-01-01"
+    },
+    {
+        "resource": "wice-genoa",
+        "nodes": 4,
+        "processors": 256,
+        "ppn": 64,
+        "start_date": "2024-01-01"
     }
 ]
