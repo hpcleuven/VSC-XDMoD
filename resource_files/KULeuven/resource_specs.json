@@ -223,10 +223,17 @@
     },
     {
         "resource": "wice-interactive",
-        "nodes": 5,
-        "processors": 360,
+        "nodes": 4,
+        "processors": 288,
         "ppn": 72,
         "start_date": "2022-06-01"
+    },
+    {
+        "resource": "wice-a100-debug",
+        "nodes": 1,
+        "processors": 72,
+        "ppn": 72,
+        "start_date": "2024-06-11"
     },
     {
         "resource": "wice-sapphirerapids",
