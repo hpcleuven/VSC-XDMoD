@@ -2,7 +2,7 @@
     {
         "resource": "kul-icts",
         "resource_type": "KU Leuven",
-        "name": "KUL ICTS - TEST",
+        "name": "KUL ICTS",
         "pi_column": "account"
     },
     {
@@ -466,9 +466,9 @@
         "shared_jobs": true
     },
     {
-        "resource":"home",
-        "resource_type":"Disk",
-        "name":"Leuven home"
+        "resource": "home",
+        "resource_type": "Disk",
+        "name": "Leuven home"
     },
     {
         "resource": "breniac_cpu",
@@ -480,6 +480,37 @@
         "resource": "hydra-skylake_mpi-breniac",
         "name": "VUB Hydra: Skylake IB - Breniac",
         "description": "The skylake_mpi partition of Hydra with former breniac nodes",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "home",
+        "resource_type": "Disk",
+        "name": "Leuven home"
+    },
+    {
+        "resource": "wice-sapphirerapids",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Sapphire Rapids",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-hugemem",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Huge mem",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-genoa",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Genoa GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "hydra-zen4",
+        "name": "VUB Hydra: Zen4",
+        "description": "The zen4 partition of Hydra",
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
