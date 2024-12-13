@@ -224,15 +224,15 @@
     {
         "resource": "wice-interactive",
         "nodes": 4,
-        "processors": 288,
-        "ppn": 72,
+        "processors": 256,
+        "ppn": 64,
         "start_date": "2022-06-01"
     },
     {
         "resource": "wice-a100-debug",
         "nodes": 1,
-        "processors": 72,
-        "ppn": 72,
+        "processors": 64,
+        "ppn": 64,
         "start_date": "2024-06-11"
     },
     {
