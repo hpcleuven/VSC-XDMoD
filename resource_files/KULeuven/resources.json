@@ -192,6 +192,12 @@
         "pi_column": "account"
     },
     {
+        "resource": "wice-a100-debug",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Icelake GPU - debug",
+        "pi_column": "account"
+    },
+    {
         "resource":"home",
         "resource_type":"Disk",
         "name":"Leuven home"
