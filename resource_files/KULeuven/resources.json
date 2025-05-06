@@ -114,6 +114,12 @@
         "pi_column": "account"
     },
     {
+        "resource": "genius-interactive",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Interactive",
+        "pi_column": "account"
+    },
+    {
         "resource": "genius-superdome",
         "resource_type": "KU Leuven",
         "name": "KUL Superdome",
