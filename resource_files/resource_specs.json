@@ -123,8 +123,8 @@
     },
     {
         "resource": "genius-skylake",
-        "nodes": 86,
-        "processors": 3096,
+        "nodes": 74,
+        "processors": 2664,
         "ppn": 36,
         "start_date": "2018-03-16"
     },
@@ -223,9 +223,9 @@
     },
     {
         "resource": "wice-interactive",
-        "nodes": 5,
-        "processors": 360,
-        "ppn": 72,
+        "nodes": 4,
+        "processors": 256,
+        "ppn": 64,
         "start_date": "2022-06-01"
     },
     {
@@ -626,5 +626,19 @@
         "ppn": 128,
         "processors": 2560,
         "start_date": "2025-03-31"
+    },
+    {
+        "resource": "genius-interactive",
+        "nodes": 12,
+        "processors": 432,
+        "ppn": 36,
+        "start_date": "2024-05-15"
+    },
+    {
+        "resource": "wice-a100-debug",
+        "nodes": 1,
+        "processors": 64,
+        "ppn": 64,
+        "start_date": "2024-06-11"
     }
 ]
