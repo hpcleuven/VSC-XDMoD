@@ -114,6 +114,12 @@
         "pi_column": "account"
     },
     {
+        "resource": "genius-interactive",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Interactive",
+        "pi_column": "account"
+    },
+    {
         "resource": "genius-superdome",
         "resource_type": "KU Leuven",
         "name": "KUL Superdome",
@@ -183,6 +189,12 @@
         "resource": "wice-genoa",
         "resource_type": "KU Leuven",
         "name": "VSC Tier-2 wICE Genoa GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-a100-debug",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Icelake GPU - debug",
         "pi_column": "account"
     },
     {
