@@ -194,7 +194,7 @@
     {
         "resource": "wice-a100-debug",
         "resource_type": "KU Leuven",
-        "name": "VSC Tier-2 wICE Icelake GPU - debug",
+        "name": "VSC Tier-2 wICE Icelake GPU Debug",
         "pi_column": "account"
     },
     {
