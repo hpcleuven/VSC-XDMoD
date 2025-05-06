@@ -94,7 +94,8 @@
         "nodes": 16,
         "ppn": 28,
         "processors": 448,
-        "start_date": "2023-09-07"
+        "start_date": "2023-09-07",
+        "end_date": "2025-03-20"
     },
     {
         "resource": "hydra-zen4",
@@ -102,5 +103,19 @@
         "ppn": 64,
         "processors": 1280,
         "start_date": "2024-02-19"
+    },
+    {
+        "resource": "hydra-zen5_himem",
+        "nodes": 4,
+        "ppn": 128,
+        "processors": 512,
+        "start_date": "2025-03-31"
+    },
+    {
+        "resource": "hydra-zen5_mpi",
+        "nodes": 20,
+        "ppn": 128,
+        "processors": 2560,
+        "start_date": "2025-03-31"
     }
 ]

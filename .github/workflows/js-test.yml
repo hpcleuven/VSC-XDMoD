@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: try all json files to see if they parse as valid
         run: find ${{ github.workspace }} -name '*.json' -print0 | xargs -t -0 -I{} bash -c "cat {} | python -mjson.tool"
