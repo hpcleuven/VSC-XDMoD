@@ -123,8 +123,8 @@
     },
     {
         "resource": "genius-skylake",
-        "nodes": 86,
-        "processors": 3096,
+        "nodes": 74,
+        "processors": 2664,
         "ppn": 36,
         "start_date": "2018-03-16"
     },
@@ -155,6 +155,13 @@
         "processors": 360,
         "ppn": 36,
         "start_date": "2018-03-16"
+    },
+    {
+        "resource": "genius-interactive",
+        "nodes": 12,
+        "processors": 432,
+        "ppn": 36,
+        "start_date": "2024-05-15"
     },
     {
         "resource": "genius-superdome",
