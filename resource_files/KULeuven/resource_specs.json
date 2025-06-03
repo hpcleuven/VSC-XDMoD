@@ -230,10 +230,18 @@
     },
     {
         "resource": "wice-interactive",
+        "nodes": 5,
+        "processors": 320,
+        "ppn": 64,
+        "start_date": "2022-06-01",
+        "end_date": "2024-06-10"
+    },
+    {
+        "resource": "wice-interactive",
         "nodes": 4,
         "processors": 256,
         "ppn": 64,
-        "start_date": "2022-06-01"
+        "start_date": "2024-06-11"
     },
     {
         "resource": "wice-a100-debug",
