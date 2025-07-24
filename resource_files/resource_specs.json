@@ -287,7 +287,8 @@
         "nodes": 22,
         "ppn": 40,
         "processors": 880,
-        "start_date": "2018-02-02"
+        "start_date": "2018-02-02",
+        "end_date": "2025-07-22"
     },
     {
         "resource": "hydra-skylake_mpi",
@@ -310,7 +311,8 @@
         "nodes": 33,
         "ppn": 40,
         "processors": 1320,
-        "start_date": "2022-12-12"
+        "start_date": "2022-12-12",
+        "end_date": "2025-07-22"
     },
     {
         "resource": "hydra-ampere_gpu",
@@ -648,5 +650,12 @@
         "processors": 256,
         "ppn": 64,
         "start_date": "2024-06-11"
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "nodes": 16,
+        "ppn": 40,
+        "processors": 640,
+        "start_date": "2025-07-23"
     }
 ]
