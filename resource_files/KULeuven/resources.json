@@ -201,5 +201,20 @@
         "resource":"home",
         "resource_type":"Disk",
         "name":"Leuven home"
+    },
+    {
+        "resource":"data",
+        "resource_type":"Disk",
+        "name":"Leuven data"
+    },
+    {
+        "resource":"scratch",
+        "resource_type":"Disk",
+        "name":"Leuven scratch"
+    },
+    {
+        "resource":"staging",
+        "resource_type":"Disk",
+        "name":"Leuven staging"
     }
 ]
