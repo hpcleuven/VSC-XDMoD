@@ -542,5 +542,20 @@
         "resource_type": "KU Leuven",
         "name": "VSC Tier-2 wICE Icelake GPU Debug",
         "pi_column": "account"
+    },
+    {
+        "resource": "data",
+        "resource_type": "Disk",
+        "name": "Leuven data"
+    },
+    {
+        "resource": "scratch",
+        "resource_type": "Disk",
+        "name": "Leuven scratch"
+    },
+    {
+        "resource": "staging",
+        "resource_type": "Disk",
+        "name": "Leuven staging"
     }
 ]
