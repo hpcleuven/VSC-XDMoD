@@ -656,6 +656,7 @@
         "nodes": 16,
         "ppn": 40,
         "processors": 640,
-        "start_date": "2025-07-23"
+        "start_date": "2025-07-23",
+        "end_date": "2025-11-11"
     }
 ]
