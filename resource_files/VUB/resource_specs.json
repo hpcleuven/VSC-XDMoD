@@ -127,5 +127,12 @@
         "processors": 640,
         "start_date": "2025-07-23",
         "end_date": "2025-11-11"
+    },
+    {
+        "resource": "hydra-hopper_gpu",
+        "nodes": 5,
+        "ppn": 48,
+        "processors": 240,
+        "start_date": "2025-11-14"
     }
 ]
