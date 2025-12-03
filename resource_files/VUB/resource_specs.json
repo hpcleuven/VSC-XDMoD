@@ -57,7 +57,8 @@
         "nodes": 22,
         "ppn": 40,
         "processors": 880,
-        "start_date": "2018-02-02"
+        "start_date": "2018-02-02",
+        "end_date": "2025-07-22"
     },
     {
         "resource": "hydra-skylake_mpi",
@@ -87,14 +88,16 @@
         "nodes": 33,
         "ppn": 40,
         "processors": 1320,
-        "start_date": "2022-12-12"
+        "start_date": "2022-12-12",
+        "end_date": "2025-07-22"
     },
     {
         "resource": "hydra-skylake_mpi-breniac",
         "nodes": 16,
         "ppn": 28,
         "processors": 448,
-        "start_date": "2023-09-07"
+        "start_date": "2023-09-07",
+        "end_date": "2025-03-20"
     },
     {
         "resource": "hydra-zen4",
@@ -102,5 +105,34 @@
         "ppn": 64,
         "processors": 1280,
         "start_date": "2024-02-19"
+    },
+    {
+        "resource": "hydra-zen5_himem",
+        "nodes": 4,
+        "ppn": 128,
+        "processors": 512,
+        "start_date": "2025-03-31"
+    },
+    {
+        "resource": "hydra-zen5_mpi",
+        "nodes": 20,
+        "ppn": 128,
+        "processors": 2560,
+        "start_date": "2025-03-31"
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "nodes": 16,
+        "ppn": 40,
+        "processors": 640,
+        "start_date": "2025-07-23",
+        "end_date": "2025-11-11"
+    },
+    {
+        "resource": "hydra-hopper_gpu",
+        "nodes": 5,
+        "ppn": 48,
+        "processors": 240,
+        "start_date": "2025-11-14"
     }
 ]

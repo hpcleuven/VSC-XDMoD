@@ -10,7 +10,7 @@ jobs:
       github.event.pull_request.merged == true &&
       ! contains(github.event.pull_request.labels.*.name, 'synced')
       
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: "create resource-sync branch"
         uses: peterjgrainger/action-create-branch@v2.2.0
@@ -20,14 +20,14 @@ jobs:
           branch: resource-sync
 
       - name: "checkout resource-sync branch" 
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: 'resource-sync'
 
       - name: "setup python"
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.8'
+          python-version: '3.12'
 
       - name: "install python packages"
         run: |

@@ -60,7 +60,7 @@ def is_valid_resource(creation_dict):
     if "timezone" in creation_dict.keys():
         if type(creation_dict["timezone"]) != str:
             raise TypeError('"timezone" must be of type str')
-        if creation_dict["timezone"] not in pytz.all_timezones:
+        if creation_dict["timezone"] not in zoneinfo.available_timezones():
             raise Exception(
                 f'Could not recognize {creation_dict["timezone"]} as a valid timezone'
             )

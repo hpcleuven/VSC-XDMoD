@@ -140,6 +140,20 @@
     "shared_jobs": true
   },
   {
+    "resource": "shinx",
+    "resource_type": "UGent",
+    "name": "shinx",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
+    "resource": "litleo",
+    "resource_type": "UGent",
+    "name": "litleo",
+    "pi_column": "account_name",
+    "shared_jobs": true
+  },
+  {
     "resource": "dodrio_cpu_rome",
     "resource_type": "UGent",
     "name": "dodrio_cpu_rome",

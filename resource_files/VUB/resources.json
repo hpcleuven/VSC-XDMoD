@@ -86,5 +86,29 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "hydra-zen5_mpi",
+        "name": "VUB Hydra: Zen5 IB",
+        "description": "The zen5_mpi partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-zen5_himem",
+        "name": "VUB Hydra: Zen5 Hi-Mem",
+        "description": "The zen5_himem partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-hopper_gpu",
+        "name": "VUB Hydra: Hopper GPU",
+        "description": "The hopper_gpu partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]

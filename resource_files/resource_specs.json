@@ -123,8 +123,8 @@
     },
     {
         "resource": "genius-skylake",
-        "nodes": 86,
-        "processors": 3096,
+        "nodes": 74,
+        "processors": 2664,
         "ppn": 36,
         "start_date": "2018-03-16"
     },
@@ -224,9 +224,10 @@
     {
         "resource": "wice-interactive",
         "nodes": 5,
-        "processors": 360,
-        "ppn": 72,
-        "start_date": "2022-06-01"
+        "processors": 320,
+        "ppn": 64,
+        "start_date": "2022-06-01",
+        "end_date": "2024-06-10"
     },
     {
         "resource": "hydra-ampere_gpu",
@@ -286,7 +287,8 @@
         "nodes": 22,
         "ppn": 40,
         "processors": 880,
-        "start_date": "2018-02-02"
+        "start_date": "2018-02-02",
+        "end_date": "2025-07-22"
     },
     {
         "resource": "hydra-skylake_mpi",
@@ -309,7 +311,8 @@
         "nodes": 33,
         "ppn": 40,
         "processors": 1320,
-        "start_date": "2022-12-12"
+        "start_date": "2022-12-12",
+        "end_date": "2025-07-22"
     },
     {
         "resource": "hydra-ampere_gpu",
@@ -582,7 +585,8 @@
         "nodes": 16,
         "ppn": 28,
         "processors": 448,
-        "start_date": "2023-09-07"
+        "start_date": "2023-09-07",
+        "end_date": "2025-03-20"
     },
     {
         "resource": "wice-sapphirerapids",
@@ -611,5 +615,55 @@
         "ppn": 64,
         "processors": 1280,
         "start_date": "2024-02-19"
+    },
+    {
+        "resource": "hydra-zen5_himem",
+        "nodes": 4,
+        "ppn": 128,
+        "processors": 512,
+        "start_date": "2025-03-31"
+    },
+    {
+        "resource": "hydra-zen5_mpi",
+        "nodes": 20,
+        "ppn": 128,
+        "processors": 2560,
+        "start_date": "2025-03-31"
+    },
+    {
+        "resource": "genius-interactive",
+        "nodes": 12,
+        "processors": 432,
+        "ppn": 36,
+        "start_date": "2024-05-15"
+    },
+    {
+        "resource": "wice-a100-debug",
+        "nodes": 1,
+        "processors": 64,
+        "ppn": 64,
+        "start_date": "2024-06-11"
+    },
+    {
+        "resource": "wice-interactive",
+        "nodes": 4,
+        "processors": 256,
+        "ppn": 64,
+        "start_date": "2024-06-11"
+    },
+    {
+        "resource": "hydra-skylake_mpi",
+        "nodes": 16,
+        "ppn": 40,
+        "processors": 640,
+        "start_date": "2025-07-23",
+        "end_date": "2025-11-11"
+    },
+    {
+        "resource": "hydra-hopper_gpu",
+        "nodes": 5,
+        "ppn": 48,
+        "processors": 240,
+        "start_date": "2025-11-14"
     }
 ]

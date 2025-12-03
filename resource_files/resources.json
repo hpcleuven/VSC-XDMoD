@@ -514,5 +514,56 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "hydra-zen5_mpi",
+        "name": "VUB Hydra: Zen5 IB",
+        "description": "The zen5_mpi partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "hydra-zen5_himem",
+        "name": "VUB Hydra: Zen5 Hi-Mem",
+        "description": "The zen5_himem partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "genius-interactive",
+        "resource_type": "KU Leuven",
+        "name": "KUL Genius Interactive",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-a100-debug",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 wICE Icelake GPU Debug",
+        "pi_column": "account"
+    },
+    {
+        "resource": "data",
+        "resource_type": "Disk",
+        "name": "Leuven data"
+    },
+    {
+        "resource": "scratch",
+        "resource_type": "Disk",
+        "name": "Leuven scratch"
+    },
+    {
+        "resource": "staging",
+        "resource_type": "Disk",
+        "name": "Leuven staging"
+    },
+    {
+        "resource": "hydra-hopper_gpu",
+        "name": "VUB Hydra: Hopper GPU",
+        "description": "The hopper_gpu partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]

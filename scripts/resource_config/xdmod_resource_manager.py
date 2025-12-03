@@ -1,6 +1,6 @@
 import datetime as dt
 import json
-import pytz
+import zoneinfo
 
 import config_checks
 
