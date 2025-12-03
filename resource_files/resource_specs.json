@@ -658,19 +658,5 @@
         "processors": 640,
         "start_date": "2025-07-23",
         "end_date": "2025-11-11"
-    },
-    {
-        "resource": "shinx",
-        "processors": 9216,
-        "nodes": 48,
-        "ppn": 192,
-        "start_date": "2023-10-31"
-    },
-    {
-        "resource": "litleo",
-        "processors": 384,
-        "nodes": 8,
-        "ppn": 48,
-        "start_date": "2025-01-13"
     }
 ]
