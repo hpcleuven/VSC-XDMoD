@@ -557,5 +557,13 @@
         "resource": "staging",
         "resource_type": "Disk",
         "name": "Leuven staging"
+    },
+    {
+        "resource": "hydra-hopper_gpu",
+        "name": "VUB Hydra: Hopper GPU",
+        "description": "The hopper_gpu partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]
