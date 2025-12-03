@@ -152,6 +152,20 @@
     "start_date": "2022-11-29"
   },
   {
+    "resource": "shinx",
+    "processors": 9216,
+    "nodes": 48,
+    "ppn": 192,
+    "start_date": "2023-10-31"
+  },
+  {
+    "resource": "litleo",
+    "processors": 384,
+    "nodes": 8,
+    "ppn": 48,
+    "start_date": "2025-01-13"
+  },
+  {
     "resource": "dodrio_cpu_rome",
     "processors": 37632,
     "nodes": 294,
