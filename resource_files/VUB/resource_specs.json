@@ -134,5 +134,12 @@
         "ppn": 48,
         "processors": 240,
         "start_date": "2025-11-14"
+    },
+    {
+        "resource": "hydra-bvo00053",
+        "nodes": 1,
+        "ppn": 48,
+        "processors": 48,
+        "start_date": "2025-11-14"
     }
 ]
