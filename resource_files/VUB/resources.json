@@ -110,5 +110,13 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "hydra-bvo00053",
+        "name": "VUB Hydra: bvo00053 GPU",
+        "description": "The bvo00053 partition of Hydra",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]
