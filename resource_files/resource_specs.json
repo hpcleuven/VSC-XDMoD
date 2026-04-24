@@ -679,5 +679,12 @@
         "nodes": 8,
         "ppn": 48,
         "start_date": "2025-01-13"
+    },
+    {
+        "resource": "hydra-bvo00053",
+        "nodes": 1,
+        "ppn": 48,
+        "processors": 48,
+        "start_date": "2025-11-14"
     }
 ]
