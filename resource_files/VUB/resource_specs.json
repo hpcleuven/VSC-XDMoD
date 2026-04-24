@@ -202,30 +202,42 @@
     },
     {
         "resource": "sofia-zen5_dense",
-        "nodes": 56,
-        "ppn": 384,
-        "processors": 21504,
+        "cpu_node_count": 56,
+        "cpu_ppn": 384,
+        "cpu_processor_count": 21504,
+        "gpu_node_count": 0,
+        "gpu_ppn": 0,
+        "gpu_processor_count": 0,
         "start_date": "2026-04-01"
     },
     {
         "resource": "sofia-zen5_himem",
-        "nodes": 16,
-        "ppn": 192,
-        "processors": 3072,
+        "cpu_node_count": 16,
+        "cpu_ppn": 192,
+        "cpu_processor_count": 3072,
+        "gpu_node_count": 0,
+        "gpu_ppn": 0,
+        "gpu_processor_count": 0,
         "start_date": "2026-04-01"
     },
     {
         "resource": "sofia-zen4_h200",
-        "nodes": 22,
-        "ppn": 192,
-        "processors": 4224,
+        "cpu_node_count": 22,
+        "cpu_ppn": 192,
+        "cpu_processor_count": 4224,
+        "gpu_node_count": 22,
+        "gpu_ppn": 8,
+        "gpu_processor_count": 176,
         "start_date": "2026-04-01"
     },
     {
         "resource": "sofia-zen5_vis",
-        "nodes": 4,
-        "ppn": 192,
-        "processors": 768,
+        "cpu_node_count": 4,
+        "cpu_ppn": 192,
+        "cpu_processor_count": 768,
+        "gpu_node_count": 4,
+        "gpu_ppn": 2,
+        "gpu_processor_count": 8,
         "start_date": "2026-04-01"
     }
 ]
