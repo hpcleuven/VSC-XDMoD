@@ -141,5 +141,33 @@
         "ppn": 48,
         "processors": 48,
         "start_date": "2025-11-14"
+    },
+    {
+        "resource": "sofia-zen5_dense",
+        "nodes": 56,
+        "ppn": 384,
+        "processors": 21504,
+        "start_date": "2026-04-01"
+    },
+    {
+        "resource": "sofia-zen5_himem",
+        "nodes": 16,
+        "ppn": 192,
+        "processors": 3072,
+        "start_date": "2026-04-01"
+    },
+    {
+        "resource": "sofia-zen4_h200",
+        "nodes": 22,
+        "ppn": 192,
+        "processors": 4224,
+        "start_date": "2026-04-01"
+    },
+    {
+        "resource": "sofia-zen5_vis",
+        "nodes": 4,
+        "ppn": 192,
+        "processors": 768,
+        "start_date": "2026-04-01"
     }
 ]
