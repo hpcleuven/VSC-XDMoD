@@ -185,9 +185,9 @@
         "cpu_node_count": 5,
         "cpu_ppn": 48,
         "cpu_processor_count": 240,
-        "gpu_node_count":5,
-        "gpu_processor_count":10,
-        "gpu_ppn":2,
+        "gpu_node_count": 5,
+        "gpu_processor_count": 10,
+        "gpu_ppn": 2,
         "start_date": "2025-11-14"
     },
     {
@@ -195,9 +195,9 @@
         "cpu_node_count": 1,
         "cpu_ppn": 48,
         "cpu_processor_count": 48,
-        "gpu_node_count":1,
-        "gpu_processor_count":2,
-        "gpu_ppn":2,
+        "gpu_node_count": 1,
+        "gpu_processor_count": 2,
+        "gpu_ppn": 2,
         "start_date": "2025-11-14"
     },
     {
