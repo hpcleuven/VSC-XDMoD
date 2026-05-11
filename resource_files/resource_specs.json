@@ -714,5 +714,33 @@
         "ppn": 192,
         "processors": 768,
         "start_date": "2026-04-01"
+    },
+    {
+        "resource": "mindwell-graniterapids",
+        "nodes": 40,
+        "processors": 7680,
+        "ppn": 192,
+        "start_date": "2026-04-01"
+    },
+    {
+        "resource": "mindwell-bigmem",
+        "nodes": 10,
+        "processors": 1920,
+        "ppn": 192,
+        "start_date": "2026-04-01"
+    },
+    {
+        "resource": "mindwell-blackwell-gpu",
+        "nodes": 3,
+        "processors": 576,
+        "ppn": 192,
+        "start_date": "2026-04-01"
+    },
+    {
+        "resource": "mindwell-interactive",
+        "nodes": 2,
+        "processors": 384,
+        "ppn": 192,
+        "start_date": "2026-04-01"
     }
 ]
