@@ -587,5 +587,37 @@
         "resource_type": "VUB",
         "pi_column": "account_name",
         "shared_jobs": true
+    },
+    {
+        "resource": "sofia-zen5_dense",
+        "name": "VSC Sofia: zen5_dense",
+        "description": "The zen5 dense partition of Sofia",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "sofia-zen5_himem",
+        "name": "VSC Sofia: zen5_himem",
+        "description": "The zen5 high memory partition of Sofia",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "sofia-zen4_h200",
+        "name": "VSC Sofia: zen4_h200",
+        "description": "The H200 (GPU) partition of Sofia",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
+    },
+    {
+        "resource": "sofia-zen5_vis",
+        "name": "VSC Sofia: zen5_vis",
+        "description": "The zen5 visualization partition of Sofia",
+        "resource_type": "VUB",
+        "pi_column": "account_name",
+        "shared_jobs": true
     }
 ]
