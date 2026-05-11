@@ -198,6 +198,30 @@
         "pi_column": "account"
     },
     {
+        "resource": "mindwell-graniterapids",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 Mindwell Granite Rapids",
+        "pi_column": "account"
+    },
+    {
+        "resource": "mindwell-bigmem",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 Mindwell Big Memory",
+        "pi_column": "account"
+    },
+    {
+        "resource": "mindwell-blackwell-gpu",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 Mindwell Blackwell GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "mindwell-interactive",
+        "resource_type": "KU Leuven",
+        "name": "VSC Tier-2 Mindwell Interactive",
+        "pi_column": "account"
+    },    
+    {
         "resource":"home",
         "resource_type":"Disk",
         "name":"Leuven home"
