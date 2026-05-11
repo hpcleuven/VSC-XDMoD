@@ -220,7 +220,7 @@
         "resource_type": "KU Leuven",
         "name": "VSC Tier-2 Mindwell Interactive",
         "pi_column": "account"
-    },    
+    },
     {
         "resource":"home",
         "resource_type":"Disk",
