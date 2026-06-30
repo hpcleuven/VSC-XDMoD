@@ -240,5 +240,15 @@
         "resource":"staging",
         "resource_type":"Disk",
         "name":"Leuven staging"
+    },
+    {
+        "resource":"gpfs_scratch",
+        "resource_type":"Disk",
+        "name":"Leuven GPFS scratch"
+    },
+    {
+        "resource":"gpfs_project",
+        "resource_type":"Disk",
+        "name":"Leuven GPFS project"
     }
 ]
