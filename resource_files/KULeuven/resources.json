@@ -242,13 +242,13 @@
         "name":"Leuven staging"
     },
     {
-        "resource":"gpfs_scratch",
+        "resource":"gpfs1_scratch",
         "resource_type":"Disk",
-        "name":"Leuven GPFS scratch"
+        "name":"Leuven GPFS1 scratch"
     },
     {
-        "resource":"gpfs_project",
+        "resource":"gpfs1_project",
         "resource_type":"Disk",
-        "name":"Leuven GPFS project"
+        "name":"Leuven GPFS1 project"
     }
 ]
