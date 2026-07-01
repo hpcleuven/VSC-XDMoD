@@ -232,12 +232,12 @@
         "name":"Leuven data"
     },
     {
-        "resource":"scratch",
+        "resource":"lustre1_scratch",
         "resource_type":"Scratch",
         "name":"Leuven scratch"
     },
     {
-        "resource":"staging",
+        "resource":"lustre1_project",
         "resource_type":"Project",
         "name":"Leuven staging"
     },
