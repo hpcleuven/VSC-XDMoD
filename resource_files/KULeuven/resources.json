@@ -234,12 +234,12 @@
     {
         "resource":"lustre1_scratch",
         "resource_type":"Scratch",
-        "name":"Leuven scratch"
+        "name":"Leuven lustre1 scratch"
     },
     {
         "resource":"lustre1_project",
         "resource_type":"Project",
-        "name":"Leuven staging"
+        "name":"Leuven lustre1 project"
     },
     {
         "resource":"gpfs1_scratch",
