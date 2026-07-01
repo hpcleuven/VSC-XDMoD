@@ -30,13 +30,13 @@
                     "Storage"
                 ]
         },
-        "scratch": {
+        "Scratch": {
             "description":"Scratch storage resource",
                 "realms": [
                     "Storage"
                 ]
         },
-        "project": {
+        "Project": {
             "description":"Project storage resource",
                 "realms": [
                     "Storage"
