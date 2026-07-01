@@ -233,22 +233,22 @@
     },
     {
         "resource":"scratch",
-        "resource_type":"Disk",
+        "resource_type":"Scratch",
         "name":"Leuven scratch"
     },
     {
         "resource":"staging",
-        "resource_type":"Disk",
+        "resource_type":"Project",
         "name":"Leuven staging"
     },
     {
         "resource":"gpfs1_scratch",
-        "resource_type":"Disk",
+        "resource_type":"Scratch",
         "name":"Leuven GPFS1 scratch"
     },
     {
         "resource":"gpfs1_project",
-        "resource_type":"Disk",
+        "resource_type":"Project",
         "name":"Leuven GPFS1 project"
     }
 ]
