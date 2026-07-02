@@ -643,5 +643,25 @@
         "resource_type": "KU Leuven",
         "name": "VSC Tier-2 Mindwell Interactive",
         "pi_column": "account"
+    },
+    {
+        "resource": "lustre1_scratch",
+        "resource_type": "Scratch",
+        "name": "Leuven lustre1 scratch"
+    },
+    {
+        "resource": "lustre1_project",
+        "resource_type": "Project",
+        "name": "Leuven lustre1 project"
+    },
+    {
+        "resource": "gpfs1_scratch",
+        "resource_type": "Scratch",
+        "name": "Leuven GPFS1 scratch"
+    },
+    {
+        "resource": "gpfs1_project",
+        "resource_type": "Project",
+        "name": "Leuven GPFS1 project"
     }
 ]
