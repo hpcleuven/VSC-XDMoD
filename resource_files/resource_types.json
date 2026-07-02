@@ -29,6 +29,18 @@
                 "realms": [
                     "Storage"
                 ]
+        },
+        "Scratch": {
+            "description":"Scratch storage resource",
+                "realms": [
+                    "Storage"
+                ]
+        },
+        "Project": {
+            "description":"Project storage resource",
+                "realms": [
+                    "Storage"
+                ]
         }
     }
 }
