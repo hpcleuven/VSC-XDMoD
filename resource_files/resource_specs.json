@@ -133,7 +133,8 @@
         "nodes": 20,
         "processors": 720,
         "ppn": 36,
-        "start_date": "2018-03-16"
+        "start_date": "2018-03-16",
+        "end_date": "2026-10-02"
     },
     {
         "resource": "genius-cascadelake",
@@ -147,28 +148,32 @@
         "nodes": 2,
         "processors": 72,
         "ppn": 36,
-        "start_date": "2019-07-01"
+        "start_date": "2019-07-01",
+        "end_date": "2026-10-02"
     },
     {
         "resource": "genius-bigmem",
         "nodes": 10,
         "processors": 360,
         "ppn": 36,
-        "start_date": "2018-03-16"
+        "start_date": "2018-03-16",
+        "end_date": "2026-10-02"
     },
     {
         "resource": "genius-superdome",
         "nodes": 8,
         "processors": 112,
         "ppn": 14,
-        "start_date": "2018-12-15"
+        "start_date": "2018-12-15",
+        "end_date": "2026-10-02"
     },
     {
         "resource": "genius-amd",
         "nodes": 4,
         "processors": 256,
         "ppn": 64,
-        "start_date": "2019-01-01"
+        "start_date": "2019-01-01",
+        "end_date": "2026-10-02"
     },
     {
         "resource": "breniac",
@@ -635,7 +640,8 @@
         "nodes": 12,
         "processors": 432,
         "ppn": 36,
-        "start_date": "2024-05-15"
+        "start_date": "2024-05-15",
+        "end_date": "2026-10-02"
     },
     {
         "resource": "wice-a100-debug",
@@ -742,5 +748,19 @@
         "processors": 384,
         "ppn": 192,
         "start_date": "2026-04-01"
+    },
+    {
+        "resource": "wice-skylake-gpu",
+        "nodes": 20,
+        "processors": 720,
+        "ppn": 36,
+        "start_date": "2026-10-02"
+    },
+    {
+        "resource": "wice-cascadelake-gpu",
+        "nodes": 2,
+        "processors": 72,
+        "ppn": 36,
+        "start_date": "2026-10-02"
     }
 ]
