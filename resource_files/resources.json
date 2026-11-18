@@ -663,5 +663,17 @@
         "resource": "gpfs1_project",
         "resource_type": "Project",
         "name": "Leuven GPFS1 project"
+    },
+    {
+        "resource": "wice-skylake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Skylake GPU",
+        "pi_column": "account"
+    },
+    {
+        "resource": "wice-cascadelake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Cascadelake GPU",
+        "pi_column": "account"
     }
 ]
