@@ -198,6 +198,18 @@
         "pi_column": "account"
     },
     {
+        "resource": "wice-skylake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Skylake GPU",
+        "pi_column": "account"
+    },
+        {
+        "resource": "wice-cascadelake-gpu",
+        "resource_type": "KU Leuven",
+        "name": "KUL wICE Cascadelake GPU",
+        "pi_column": "account"
+    },
+    {
         "resource": "mindwell-graniterapids",
         "resource_type": "KU Leuven",
         "name": "VSC Tier-2 Mindwell Granite Rapids",
